@@ -16,15 +16,17 @@ COPY ["Domain/Domain.csproj", "Domain/"]
 COPY ["Application/Application.csproj", "Application/"]
 COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
 
-# Restore dependencies for all projects
-RUN dotnet restore "LLM-Advisor.sln"
+# Restore dependencies for ALL projects
+RUN dotnet restore "Presentation/Presentation.csproj"
+RUN dotnet restore "Domain/Domain.csproj"
+RUN dotnet restore "Application/Application.csproj"
+RUN dotnet restore "Infrastructure/Infrastructure.csproj"
 
 # Copy the rest of the source code
 COPY . .
 
-# Ensure restore happens right before build (fix for NETSDK1004)
+# Build Presentation (which references the others)
 WORKDIR "/src/Presentation"
-RUN dotnet restore "Presentation.csproj"
 RUN dotnet build "Presentation.csproj" -c $configuration -o /app/build
 
 # Publish stage
