@@ -3,14 +3,25 @@ WORKDIR /app
 EXPOSE 5043
 
 ENV ASPNETCORE_URLS=http://+:5043
-
 USER app
+
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG configuration=Release
 WORKDIR /src
+
+# Copy solution and project files
+COPY ["MySolution.sln", "."]
 COPY ["Presentation/Presentation.csproj", "Presentation/"]
-RUN dotnet restore "Presentation/Presentation.csproj"
+COPY ["Domain/Domain.csproj", "Domain/"]
+COPY ["Application/Application.csproj", "Application/"]
+COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
+
+# Restore all projects
+RUN dotnet restore "MySolution.sln"
+
+# Copy the rest of the source code
 COPY . .
+
 WORKDIR "/src/Presentation"
 RUN dotnet build "Presentation.csproj" -c $configuration -o /app/build
 
