@@ -42,14 +42,16 @@ builder.Services.AddScoped<IRecommendationService, RecommendationService>();
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
 
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsProduction())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseHsts();
 }
 
+// Configure the HTTP request pipeline.
+app.UseSwagger();
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "LLM-Advisor v1"));
+app.UseHttpsRedirection();
 
 app.UseRouting();
 app.UseAuthentication();
