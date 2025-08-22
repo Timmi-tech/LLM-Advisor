@@ -17,7 +17,7 @@ COPY ["Application/Application.csproj", "Application/"]
 COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
 
 # Restore all projects
-RUN dotnet restore "MySolution.sln"
+RUN dotnet restore "LLM-Advisor.sln"
 
 # Copy the rest of the source code
 COPY . .
