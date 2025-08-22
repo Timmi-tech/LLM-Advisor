@@ -1,0 +1,209 @@
+2025-08-21 13:57:20.521 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-21 13:57:20.925 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-21 13:57:20.946 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 13:57:20.951 +01:00 [INF] Hosting environment: Development
+2025-08-21 13:57:20.991 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-21 13:57:50.830 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-08-21 13:57:50.852 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-21 13:57:51.079 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 251.8634ms
+2025-08-21 13:57:52.055 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - null null
+2025-08-21 13:57:52.153 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - 200 155175 text/css 97.3721ms
+2025-08-21 13:57:52.167 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.css - null null
+2025-08-21 13:57:52.169 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - null null
+2025-08-21 13:57:52.186 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - null null
+2025-08-21 13:57:52.184 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2025-08-21 13:57:52.247 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.css - 200 202 text/css 80.0011ms
+2025-08-21 13:57:52.307 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 121.3213ms
+2025-08-21 13:57:52.317 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - 200 1485750 text/javascript 147.8109ms
+2025-08-21 13:57:52.322 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 137.9299ms
+2025-08-21 13:57:53.699 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-21 13:57:53.703 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - null null
+2025-08-21 13:57:53.722 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - 200 628 image/png 18.4891ms
+2025-08-21 13:57:54.051 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 352.5751ms
+2025-08-21 13:58:35.384 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/Register - application/json 132
+2025-08-21 13:58:35.571 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2025-08-21 13:58:35.581 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2025-08-21 13:58:35.587 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Presentation.ActionFilters.ValidationFilterAttribute' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-21 13:58:35.632 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/Register - 500 null text/plain; charset=utf-8 247.8372ms
+2025-08-21 14:01:16.868 +01:00 [INF] Application is shutting down...
+2025-08-21 14:02:21.671 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-21 14:02:22.405 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-21 14:02:22.412 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 14:02:22.416 +01:00 [INF] Hosting environment: Development
+2025-08-21 14:02:22.420 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-21 14:02:28.793 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/Register - application/json 132
+2025-08-21 14:02:28.837 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-21 14:02:29.050 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2025-08-21 14:02:29.119 +01:00 [INF] Route matched with {action = "RegisterUser", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(Application.DTOs.UserForRegistrationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-21 14:02:32.927 +01:00 [ERR] Failed executing DbCommand (72ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-21 14:02:32.974 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Infrastructure.Repository.RepositoryContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "AspNetUsers" does not exist
+
+POSITION: 399
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "AspNetUsers" does not exist
+    Position: 399
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "AspNetUsers" does not exist
+
+POSITION: 399
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "AspNetUsers" does not exist
+    Position: 399
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2025-08-21 14:02:33.036 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.RegisterUser (Presentation) in 3891.3994ms
+2025-08-21 14:02:33.056 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2025-08-21 14:02:33.064 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "AspNetUsers" does not exist
+
+POSITION: 399
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at Application.Services.AuthenticationService.RegisterUser(UserForRegistrationDto userForRegistration) in C:\Users\user\Desktop\c##\LLM-Advisor\Application\Services\AuthenticationService.cs:line 41
+   at Presentation.Controllers.AuthenticationController.RegisterUser(UserForRegistrationDto userForRegistration) in C:\Users\user\Desktop\c##\LLM-Advisor\presentation\Controllers\AuthenticationControllers.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "AspNetUsers" does not exist
+    Position: 399
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2025-08-21 14:02:33.201 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/Register - 500 null text/plain; charset=utf-8 4410.3345ms
+2025-08-21 14:02:41.552 +01:00 [INF] Application is shutting down...
+2025-08-21 14:04:12.604 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-21 14:04:12.978 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-21 14:04:12.985 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 14:04:12.990 +01:00 [INF] Hosting environment: Development
+2025-08-21 14:04:12.994 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-21 14:04:16.941 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/Register - application/json 132
+2025-08-21 14:04:16.962 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-21 14:04:17.051 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2025-08-21 14:04:17.081 +01:00 [INF] Route matched with {action = "RegisterUser", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(Application.DTOs.UserForRegistrationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-21 14:04:19.194 +01:00 [INF] Executed DbCommand (80ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-21 14:04:19.263 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-21 14:04:19.691 +01:00 [INF] Executed DbCommand (51ms) [Parameters=[@p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?', @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?', @p16='?' (DbType = DateTime), @p17='?', @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "CreatedAt", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpiryTime", "SecurityStamp", "TwoFactorEnabled", "UpdatedAt", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2025-08-21 14:04:19.720 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2025-08-21 14:04:19.729 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.RegisterUser (Presentation) in 2634.4272ms
+2025-08-21 14:04:19.742 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2025-08-21 14:04:19.770 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/Register - 201 0 null 2831.1351ms
+2025-08-21 14:04:40.182 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 59
+2025-08-21 14:04:40.200 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-21 14:04:40.220 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-21 14:04:40.353 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-21 14:04:40.541 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-21 14:04:40.557 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-21 14:04:40.687 +01:00 [INF] Executed DbCommand (22ms) [Parameters=[@p20='?', @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Boolean), @p18='?' (DbType = DateTime), @p19='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "SecurityStamp" = @p16, "TwoFactorEnabled" = @p17, "UpdatedAt" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21;
+2025-08-21 14:04:40.779 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2025-08-21 14:04:40.798 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 569.0095ms
+2025-08-21 14:04:40.806 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-21 14:04:40.812 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 629.6354ms
+2025-08-21 14:04:56.326 +01:00 [INF] Application is shutting down...

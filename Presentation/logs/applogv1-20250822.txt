@@ -1,0 +1,683 @@
+2025-08-22 12:53:20.771 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 12:53:21.082 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 12:53:21.087 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 12:53:21.091 +01:00 [INF] Hosting environment: Development
+2025-08-22 12:53:21.094 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 12:53:35.166 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-08-22 12:53:35.178 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 12:53:35.343 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 178.0653ms
+2025-08-22 12:53:35.673 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - null null
+2025-08-22 12:53:35.710 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.css - null null
+2025-08-22 12:53:35.711 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - null null
+2025-08-22 12:53:35.717 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2025-08-22 12:53:35.711 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - null null
+2025-08-22 12:53:35.742 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.css - 200 202 text/css 24.3876ms
+2025-08-22 12:53:35.760 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - 200 155175 text/css 87.2977ms
+2025-08-22 12:53:35.793 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 82.3554ms
+2025-08-22 12:53:35.799 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 81.3867ms
+2025-08-22 12:53:35.851 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - 200 1485750 text/javascript 140.467ms
+2025-08-22 12:53:36.397 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - null null
+2025-08-22 12:53:36.397 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-22 12:53:36.409 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - 200 628 image/png 12.0895ms
+2025-08-22 12:53:36.588 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 190.4672ms
+2025-08-22 12:54:34.986 +01:00 [INF] Application is shutting down...
+2025-08-22 12:54:49.710 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 12:54:49.930 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 12:54:49.936 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 12:54:49.940 +01:00 [INF] Hosting environment: Development
+2025-08-22 12:54:49.944 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 12:55:15.142 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-08-22 12:55:15.156 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 12:55:15.256 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 114.261ms
+2025-08-22 12:55:15.622 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-22 12:55:15.749 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.0841ms
+2025-08-22 12:58:47.253 +01:00 [INF] Application is shutting down...
+2025-08-22 13:08:14.096 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 13:08:14.374 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 13:08:14.380 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 13:08:14.384 +01:00 [INF] Hosting environment: Development
+2025-08-22 13:08:14.387 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 13:08:14.741 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-08-22 13:08:14.763 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 13:08:14.985 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 246.0064ms
+2025-08-22 13:08:15.930 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-22 13:08:16.272 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 343.64ms
+2025-08-22 13:09:43.399 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/Feedback - application/json 189
+2025-08-22 13:09:43.512 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:09:43.542 +01:00 [INF] Route matched with {action = "SubmitFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitFeedback(Domain.Entities.Models.FeedBack) on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:09:43.554 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation) in 2.9065ms
+2025-08-22 13:09:43.560 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:09:43.564 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Application.Services.Contracts.IFeedBackService' while attempting to activate 'Presentation.Controllers.FeedbackController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-22 13:09:43.602 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/Feedback - 500 null text/plain; charset=utf-8 202.8828ms
+2025-08-22 13:11:07.649 +01:00 [INF] Application is shutting down...
+2025-08-22 13:12:33.399 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 13:12:33.682 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 13:12:33.690 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 13:12:33.694 +01:00 [INF] Hosting environment: Development
+2025-08-22 13:12:33.698 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 13:12:40.003 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/Feedback - application/json 189
+2025-08-22 13:12:40.025 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 13:12:40.148 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:12:40.190 +01:00 [INF] Route matched with {action = "SubmitFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitFeedback(Domain.Entities.Models.FeedBack) on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:12:42.955 +01:00 [INF] Executed DbCommand (215ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Feedbacks" ("Id", "Message", "Rating", "SubmittedAt", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-08-22 13:12:43.107 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-22 13:12:43.218 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation) in 2976.5422ms
+2025-08-22 13:12:43.335 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:12:43.388 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/Feedback - 200 null application/json; charset=utf-8 3386.4804ms
+2025-08-22 13:12:59.755 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Feedback - null null
+2025-08-22 13:12:59.787 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:12:59.805 +01:00 [INF] Route matched with {action = "GetAllFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeedback() on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:13:00.386 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."Message", f."Rating", f."SubmittedAt", f."UserId"
+FROM "Feedbacks" AS f
+2025-08-22 13:13:00.430 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Entities.Models.FeedBack, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-22 13:13:00.461 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation) in 646.6368ms
+2025-08-22 13:13:00.467 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:13:00.474 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Feedback - 200 null application/json; charset=utf-8 719.7017ms
+2025-08-22 13:13:12.656 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Feedback/average-rating - null null
+2025-08-22 13:13:12.678 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.GetAverageRating (Presentation)'
+2025-08-22 13:13:12.694 +01:00 [INF] Route matched with {action = "GetAverageRating", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAverageRating() on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:13:12.887 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT avg(f."Rating"::double precision)
+FROM "Feedbacks" AS f
+2025-08-22 13:13:12.906 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`1[[System.Double, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-22 13:13:12.920 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.GetAverageRating (Presentation) in 212.0731ms
+2025-08-22 13:13:12.931 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.GetAverageRating (Presentation)'
+2025-08-22 13:13:12.936 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Feedback/average-rating - 200 null application/json; charset=utf-8 280.4816ms
+2025-08-22 13:13:34.966 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/Feedback - application/json 189
+2025-08-22 13:13:34.974 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:13:34.979 +01:00 [INF] Route matched with {action = "SubmitFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitFeedback(Domain.Entities.Models.FeedBack) on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:13:35.021 +01:00 [ERR] Failed executing DbCommand (22ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Feedbacks" ("Id", "Message", "Rating", "SubmittedAt", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-08-22 13:13:35.052 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'Infrastructure.Repository.RepositoryContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "PK_Feedbacks"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "PK_Feedbacks"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Feedbacks
+    ConstraintName: PK_Feedbacks
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "PK_Feedbacks"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "PK_Feedbacks"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Feedbacks
+    ConstraintName: PK_Feedbacks
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-08-22 13:13:35.091 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation) in 101.415ms
+2025-08-22 13:13:35.098 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:13:35.106 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "PK_Feedbacks"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "PK_Feedbacks"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Feedbacks
+    ConstraintName: PK_Feedbacks
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Infrastructure.Repository.FeedBackRepository.AddFeedbackAsync(FeedBack feedback) in C:\Users\user\Desktop\c##\LLM-Advisor\Infrastructure\Repository\FeedBackRepository.cs:line 14
+   at Application.Services.FeedbackService.SubmitFeedbackAsync(FeedBack feedback) in C:\Users\user\Desktop\c##\LLM-Advisor\Application\Services\FeedbackService.cs:line 14
+   at Presentation.Controllers.FeedbackController.SubmitFeedback(FeedBack feedback) in C:\Users\user\Desktop\c##\LLM-Advisor\presentation\Controllers\FeedbackController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-22 13:13:35.265 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/Feedback - 500 null text/plain; charset=utf-8 298.493ms
+2025-08-22 13:13:47.342 +01:00 [INF] Application is shutting down...
+2025-08-22 13:21:41.772 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 13:21:42.133 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 13:21:42.141 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 13:21:42.145 +01:00 [INF] Hosting environment: Development
+2025-08-22 13:21:42.149 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 13:25:51.260 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Feedback - null null
+2025-08-22 13:25:51.290 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 13:25:51.476 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:25:51.522 +01:00 [INF] Route matched with {action = "GetAllFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeedback() on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:25:53.191 +01:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."Message", f."Rating", f."SubmittedAt", f."UserId"
+FROM "Feedbacks" AS f
+2025-08-22 13:25:53.273 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Domain.Entities.Models.FeedBack, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Application.DTOs.FeedbackResponseDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-22 13:25:53.371 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation) in 1825.2219ms
+2025-08-22 13:25:53.398 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:25:53.438 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Feedback - 200 null application/json; charset=utf-8 2186.4753ms
+2025-08-22 13:26:07.458 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/Feedback/average-rating - null null
+2025-08-22 13:26:07.475 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.GetAverageRating (Presentation)'
+2025-08-22 13:26:07.489 +01:00 [INF] Route matched with {action = "GetAverageRating", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAverageRating() on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:26:07.684 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT avg(f."Rating"::double precision)
+FROM "Feedbacks" AS f
+2025-08-22 13:26:07.708 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."Message", f."Rating", f."SubmittedAt", f."UserId"
+FROM "Feedbacks" AS f
+2025-08-22 13:26:07.718 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.FeedbackStatisticsDto'.
+2025-08-22 13:26:07.733 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.GetAverageRating (Presentation) in 236.7288ms
+2025-08-22 13:26:07.739 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.GetAverageRating (Presentation)'
+2025-08-22 13:26:07.744 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/Feedback/average-rating - 200 null application/json; charset=utf-8 286.4015ms
+2025-08-22 13:26:15.047 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-08-22 13:26:15.137 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 89.7238ms
+2025-08-22 13:26:15.603 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-22 13:26:15.750 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.0428ms
+2025-08-22 13:38:14.434 +01:00 [INF] Application is shutting down...
+2025-08-22 13:42:50.374 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 13:42:50.618 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 13:42:50.624 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 13:42:50.628 +01:00 [INF] Hosting environment: Development
+2025-08-22 13:42:50.631 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 13:42:54.279 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-08-22 13:42:54.300 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 13:42:54.466 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 189.8113ms
+2025-08-22 13:42:56.167 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-22 13:42:56.385 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 218.2274ms
+2025-08-22 13:43:56.396 +01:00 [INF] Application is shutting down...
+2025-08-22 13:47:28.633 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 13:47:29.000 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 13:47:29.007 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 13:47:29.033 +01:00 [INF] Hosting environment: Development
+2025-08-22 13:47:29.039 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 13:47:32.722 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-08-22 13:47:32.743 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 13:47:32.885 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 164.6556ms
+2025-08-22 13:47:33.734 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-22 13:47:34.024 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 289.9485ms
+2025-08-22 13:48:25.999 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/Register - application/json 128
+2025-08-22 13:48:26.091 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2025-08-22 13:48:26.119 +01:00 [INF] Route matched with {action = "RegisterUser", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(Application.DTOs.UserForRegistrationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-22 13:48:31.764 +01:00 [INF] Executed DbCommand (79ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-22 13:48:31.821 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-22 13:48:32.555 +01:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?', @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?', @p16='?' (DbType = DateTime), @p17='?', @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "CreatedAt", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpiryTime", "SecurityStamp", "TwoFactorEnabled", "UpdatedAt", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2025-08-22 13:48:32.826 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2025-08-22 13:48:32.844 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.RegisterUser (Presentation) in 6703.4143ms
+2025-08-22 13:48:32.872 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2025-08-22 13:48:32.908 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/Register - 201 0 null 6909.0114ms
+2025-08-22 13:48:54.315 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2025-08-22 13:48:54.334 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-22 13:48:54.348 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-22 13:48:54.523 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-22 13:48:54.778 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-22 13:48:54.815 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-22 13:48:54.875 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@p20='?', @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Boolean), @p18='?' (DbType = DateTime), @p19='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "SecurityStamp" = @p16, "TwoFactorEnabled" = @p17, "UpdatedAt" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21;
+2025-08-22 13:48:54.949 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2025-08-22 13:48:54.966 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 599.581ms
+2025-08-22 13:48:54.972 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-22 13:48:54.979 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 664.1557ms
+2025-08-22 13:49:20.899 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/feedback - application/json 42
+2025-08-22 13:49:20.983 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-08-22 13:49:21.003 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-08-22 13:49:21.017 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-22 13:49:21.028 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-08-22 13:49:21.032 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/feedback - 401 0 null 133.6197ms
+2025-08-22 13:49:37.162 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger - null null
+2025-08-22 13:49:37.172 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger - 301 0 null 9.9623ms
+2025-08-22 13:49:37.497 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-22 13:49:37.523 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.5931ms
+2025-08-22 13:49:58.082 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2025-08-22 13:49:58.091 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-22 13:49:58.101 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-22 13:49:58.148 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-22 13:49:58.257 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-22 13:49:58.266 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-22 13:49:58.492 +01:00 [INF] Executed DbCommand (219ms) [Parameters=[@p20='?', @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Boolean), @p18='?' (DbType = DateTime), @p19='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "SecurityStamp" = @p16, "TwoFactorEnabled" = @p17, "UpdatedAt" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21;
+2025-08-22 13:49:58.504 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2025-08-22 13:49:58.513 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 404.0214ms
+2025-08-22 13:49:58.519 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-22 13:49:58.524 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 442.4255ms
+2025-08-22 13:50:24.978 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/feedback - application/json 42
+2025-08-22 13:50:24.991 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-08-22 13:50:25.001 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-08-22 13:50:25.011 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-22 13:50:25.017 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-08-22 13:50:25.021 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/feedback - 401 0 null 42.2013ms
+2025-08-22 13:50:35.760 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/feedback - null null
+2025-08-22 13:50:35.772 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-08-22 13:50:35.779 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-08-22 13:50:35.788 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-22 13:50:35.792 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-08-22 13:50:35.795 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/feedback - 401 0 null 35.1286ms
+2025-08-22 13:54:02.946 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/feedback - null null
+2025-08-22 13:54:02.982 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-08-22 13:54:03.003 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2025-08-22 13:54:03.012 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-22 13:54:03.018 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-08-22 13:54:03.022 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/feedback - 401 0 null 77.0553ms
+2025-08-22 13:57:14.143 +01:00 [INF] Application is shutting down...
+2025-08-22 13:57:39.044 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 13:57:39.286 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 13:57:39.291 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 13:57:39.295 +01:00 [INF] Hosting environment: Development
+2025-08-22 13:57:39.300 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 13:57:50.431 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2025-08-22 13:57:50.505 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 13:57:51.322 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '8/22/2025 12:49:58 PM', Current time (UTC): '8/22/2025 12:57:51 PM'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-08-22 13:57:51.351 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '8/22/2025 12:49:58 PM', Current time (UTC): '8/22/2025 12:57:51 PM'.
+2025-08-22 13:57:51.371 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-22 13:57:51.441 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-22 13:57:54.139 +01:00 [INF] Executed DbCommand (66ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-22 13:57:54.402 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-22 13:57:54.644 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-22 13:57:54.818 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@p20='?', @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Boolean), @p18='?' (DbType = DateTime), @p19='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "SecurityStamp" = @p16, "TwoFactorEnabled" = @p17, "UpdatedAt" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21;
+2025-08-22 13:57:55.053 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2025-08-22 13:57:55.076 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 3620.4631ms
+2025-08-22 13:57:55.089 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-22 13:57:55.101 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 4675.8379ms
+2025-08-22 13:58:20.461 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/feedback - null null
+2025-08-22 13:58:20.549 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:58:20.564 +01:00 [INF] Route matched with {action = "GetAllFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeedback() on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:58:20.748 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."Message", f."Rating", f."SubmittedAt", f."UserId"
+FROM "Feedbacks" AS f
+2025-08-22 13:58:20.766 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Domain.Entities.Models.FeedBack, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Application.DTOs.FeedbackResponseDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-22 13:58:20.817 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation) in 245.2277ms
+2025-08-22 13:58:20.824 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:58:20.830 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/feedback - 200 null application/json; charset=utf-8 367.3954ms
+2025-08-22 13:58:25.618 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/feedback - application/json 42
+2025-08-22 13:58:25.677 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:58:25.690 +01:00 [INF] Route matched with {action = "SubmitFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitFeedback(Application.DTOs.CreateFeedbackDto) on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:58:26.719 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Feedbacks" ("Id", "Message", "Rating", "SubmittedAt", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-08-22 13:58:26.732 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2025-08-22 13:58:26.735 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation) in 1037.1928ms
+2025-08-22 13:58:26.738 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:58:26.740 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/feedback - 201 0 null 1122.4226ms
+2025-08-22 13:58:32.671 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/feedback - null null
+2025-08-22 13:58:32.686 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:58:32.692 +01:00 [INF] Route matched with {action = "GetAllFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeedback() on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:58:32.708 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."Message", f."Rating", f."SubmittedAt", f."UserId"
+FROM "Feedbacks" AS f
+2025-08-22 13:58:32.719 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Domain.Entities.Models.FeedBack, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Application.DTOs.FeedbackResponseDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-22 13:58:32.723 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation) in 21.4437ms
+2025-08-22 13:58:32.730 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:58:32.735 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/feedback - 200 null application/json; charset=utf-8 63.603ms
+2025-08-22 13:58:37.320 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/feedback - application/json 42
+2025-08-22 13:58:37.331 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:58:37.337 +01:00 [INF] Route matched with {action = "SubmitFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitFeedback(Application.DTOs.CreateFeedbackDto) on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:58:37.354 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Feedbacks" ("Id", "Message", "Rating", "SubmittedAt", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-08-22 13:58:37.365 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2025-08-22 13:58:37.367 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation) in 17.8789ms
+2025-08-22 13:58:37.372 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.SubmitFeedback (Presentation)'
+2025-08-22 13:58:37.379 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/feedback - 201 0 null 58.0814ms
+2025-08-22 13:58:47.047 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/feedback - null null
+2025-08-22 13:58:47.083 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:58:47.088 +01:00 [INF] Route matched with {action = "GetAllFeedback", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeedback() on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:58:47.096 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."Message", f."Rating", f."SubmittedAt", f."UserId"
+FROM "Feedbacks" AS f
+2025-08-22 13:58:47.107 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[Domain.Entities.Models.FeedBack, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Application.DTOs.FeedbackResponseDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-22 13:58:47.112 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation) in 17.492ms
+2025-08-22 13:58:47.115 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.GetAllFeedback (Presentation)'
+2025-08-22 13:58:47.119 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/feedback - 200 null application/json; charset=utf-8 71.7631ms
+2025-08-22 13:58:55.753 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/feedback/average-rating - null null
+2025-08-22 13:58:55.769 +01:00 [INF] Executing endpoint 'Presentation.Controllers.FeedbackController.GetAverageRating (Presentation)'
+2025-08-22 13:58:55.782 +01:00 [INF] Route matched with {action = "GetAverageRating", controller = "Feedback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAverageRating() on controller Presentation.Controllers.FeedbackController (Presentation).
+2025-08-22 13:58:55.845 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT avg(f."Rating"::double precision)
+FROM "Feedbacks" AS f
+2025-08-22 13:58:55.858 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."Message", f."Rating", f."SubmittedAt", f."UserId"
+FROM "Feedbacks" AS f
+2025-08-22 13:58:55.865 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.FeedbackStatisticsDto'.
+2025-08-22 13:58:55.874 +01:00 [INF] Executed action Presentation.Controllers.FeedbackController.GetAverageRating (Presentation) in 78.6978ms
+2025-08-22 13:58:55.879 +01:00 [INF] Executed endpoint 'Presentation.Controllers.FeedbackController.GetAverageRating (Presentation)'
+2025-08-22 13:58:55.884 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/feedback/average-rating - 200 null application/json; charset=utf-8 130.7737ms
+2025-08-22 14:01:05.829 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2025-08-22 14:01:05.851 +01:00 [INF] Executing endpoint 'ConversationController.Start (Presentation)'
+2025-08-22 14:01:05.856 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Start() on controller ConversationController (Presentation).
+2025-08-22 14:01:05.883 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-22 14:01:05.892 +01:00 [INF] Executed action ConversationController.Start (Presentation) in 24.6755ms
+2025-08-22 14:01:05.899 +01:00 [INF] Executed endpoint 'ConversationController.Start (Presentation)'
+2025-08-22 14:01:05.903 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 74.1082ms
+2025-08-22 14:01:43.595 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 92
+2025-08-22 14:01:43.608 +01:00 [INF] Executing endpoint 'ConversationController.Next (Presentation)'
+2025-08-22 14:01:43.621 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Next(ConversationRequest) on controller ConversationController (Presentation).
+2025-08-22 14:01:43.637 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-22 14:01:43.647 +01:00 [INF] Executed action ConversationController.Next (Presentation) in 15.6119ms
+2025-08-22 14:01:43.653 +01:00 [INF] Executed endpoint 'ConversationController.Next (Presentation)'
+2025-08-22 14:01:43.656 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 61.1732ms
+2025-08-22 14:01:54.414 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 92
+2025-08-22 14:01:54.442 +01:00 [INF] Executing endpoint 'ConversationController.Next (Presentation)'
+2025-08-22 14:01:54.455 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Next(ConversationRequest) on controller ConversationController (Presentation).
+2025-08-22 14:01:54.468 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-22 14:01:54.475 +01:00 [INF] Executed action ConversationController.Next (Presentation) in 10.7128ms
+2025-08-22 14:01:54.484 +01:00 [INF] Executed endpoint 'ConversationController.Next (Presentation)'
+2025-08-22 14:01:54.488 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 74.1239ms
+2025-08-22 14:02:06.671 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 88
+2025-08-22 14:02:06.684 +01:00 [INF] Executing endpoint 'ConversationController.Next (Presentation)'
+2025-08-22 14:02:06.689 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Next(ConversationRequest) on controller ConversationController (Presentation).
+2025-08-22 14:02:06.701 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-22 14:02:06.710 +01:00 [INF] Executed action ConversationController.Next (Presentation) in 12.5639ms
+2025-08-22 14:02:06.718 +01:00 [INF] Executed endpoint 'ConversationController.Next (Presentation)'
+2025-08-22 14:02:06.724 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 53.7225ms
+2025-08-22 14:02:20.280 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 88
+2025-08-22 14:02:20.290 +01:00 [INF] Executing endpoint 'ConversationController.Next (Presentation)'
+2025-08-22 14:02:20.295 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Next(ConversationRequest) on controller ConversationController (Presentation).
+2025-08-22 14:02:20.331 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2025-08-22 14:02:20.355 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2025-08-22 14:02:20.361 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2025-08-22 14:02:24.477 +01:00 [INF] Received HTTP response headers after 4109.8133ms - 200
+2025-08-22 14:02:24.481 +01:00 [INF] End processing HTTP request after 4126.8277ms - 200
+2025-08-22 14:02:24.521 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Models.RecommendationResponse, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-22 14:02:24.543 +01:00 [INF] Executed action ConversationController.Next (Presentation) in 4237.975ms
+2025-08-22 14:02:24.555 +01:00 [INF] Executed endpoint 'ConversationController.Next (Presentation)'
+2025-08-22 14:02:24.560 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 4280.47ms
+2025-08-22 14:07:08.866 +01:00 [INF] Application is shutting down...
+2025-08-22 15:23:52.617 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 15:23:52.928 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 15:23:52.934 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 15:23:52.939 +01:00 [INF] Hosting environment: Development
+2025-08-22 15:23:52.944 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 15:24:01.444 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-08-22 15:24:01.475 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 15:24:01.664 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 223.2845ms
+2025-08-22 15:24:02.531 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-22 15:24:02.823 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 293.224ms
+2025-08-22 15:24:14.556 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2025-08-22 15:24:14.881 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-22 15:24:14.903 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-08-22 15:24:14.917 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 401 0 null 360.8204ms
+2025-08-22 15:24:33.605 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2025-08-22 15:24:33.631 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-22 15:24:33.681 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-22 15:24:35.503 +01:00 [INF] Executed DbCommand (100ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-22 15:24:35.858 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-22 15:24:35.875 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-22 15:24:36.067 +01:00 [INF] Executed DbCommand (28ms) [Parameters=[@p20='?', @p0='?' (DbType = Int32), @p1='?', @p21='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?' (DbType = Boolean), @p18='?' (DbType = DateTime), @p19='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "SecurityStamp" = @p16, "TwoFactorEnabled" = @p17, "UpdatedAt" = @p18, "UserName" = @p19
+WHERE "Id" = @p20 AND "ConcurrencyStamp" = @p21;
+2025-08-22 15:24:36.141 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2025-08-22 15:24:36.163 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 2465.1688ms
+2025-08-22 15:24:36.171 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-22 15:24:36.186 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 2581.2427ms
+2025-08-22 15:24:54.034 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2025-08-22 15:24:54.363 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2025-08-22 15:24:54.390 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2025-08-22 15:24:54.611 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 31.0622ms
+2025-08-22 15:24:54.647 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2025-08-22 15:24:54.657 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A suitable constructor for type 'Application.Services.RecommendationService' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.HttpClientBuilderExtensions.AddTransientHelper[TClient,TImplementation](IServiceProvider s, IHttpClientBuilder builder)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method243(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-22 15:24:54.774 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 500 null text/plain; charset=utf-8 739.5112ms
+2025-08-22 15:26:06.946 +01:00 [INF] Application is shutting down...
+2025-08-22 15:26:25.923 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-22 15:26:26.157 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-22 15:26:26.165 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-22 15:26:26.170 +01:00 [INF] Hosting environment: Development
+2025-08-22 15:26:26.177 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-22 15:26:37.726 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2025-08-22 15:26:37.743 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-22 15:26:37.935 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2025-08-22 15:26:37.959 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2025-08-22 15:26:38.217 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2025-08-22 15:26:38.264 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 288.2759ms
+2025-08-22 15:26:38.286 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2025-08-22 15:26:38.293 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 568.3655ms
+2025-08-22 15:27:26.175 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 101
+2025-08-22 15:27:26.195 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2025-08-22 15:27:26.218 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2025-08-22 15:27:26.279 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2025-08-22 15:27:26.291 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 62.89ms
+2025-08-22 15:27:26.300 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2025-08-22 15:27:26.303 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 129.2304ms
+2025-08-22 15:27:42.249 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 92
+2025-08-22 15:27:42.269 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2025-08-22 15:27:42.276 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2025-08-22 15:27:42.291 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2025-08-22 15:27:42.304 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 19.615ms
+2025-08-22 15:27:42.313 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2025-08-22 15:27:42.321 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 72.5177ms
+2025-08-22 15:27:53.313 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 89
+2025-08-22 15:27:53.322 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2025-08-22 15:27:53.330 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2025-08-22 15:27:53.349 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2025-08-22 15:27:53.362 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 16.6855ms
+2025-08-22 15:27:53.370 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2025-08-22 15:27:53.378 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 65.0482ms
+2025-08-22 15:28:00.973 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 88
+2025-08-22 15:28:00.981 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2025-08-22 15:28:00.985 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2025-08-22 15:28:02.742 +01:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2025-08-22 15:28:02.864 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2025-08-22 15:28:02.871 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2025-08-22 15:28:07.961 +01:00 [INF] Received HTTP response headers after 5082.8651ms - 200
+2025-08-22 15:28:07.966 +01:00 [INF] End processing HTTP request after 5103.4047ms - 200
+2025-08-22 15:28:07.987 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2025-08-22 15:28:07.993 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 7001.2223ms
+2025-08-22 15:28:07.999 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2025-08-22 15:28:08.013 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 7039.6823ms
+2025-08-22 15:32:29.540 +01:00 [INF] Application is shutting down...
