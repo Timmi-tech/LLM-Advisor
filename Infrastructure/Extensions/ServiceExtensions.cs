@@ -146,7 +146,20 @@ namespace Infrastructure.Extensions
                     }
                 });
             });
-
+        }
+         // Add the ConfigureCors method to the ServiceExtensions class.
+        public static void ConfigureCors(this IServiceCollection services)
+        {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder =>
+                {
+                    builder.WithOrigins("http://localhost:3001", "http://localhost:3000", "https://metaflix-eosin.vercel.app" )
+                           .AllowAnyMethod()
+                           .AllowAnyHeader()
+                          .AllowCredentials();
+                });
+            });
         }
 
     }

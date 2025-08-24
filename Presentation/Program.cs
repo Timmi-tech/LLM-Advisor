@@ -38,6 +38,7 @@ builder.Services.Configure<GeminiSettings>(
     builder.Configuration.GetSection("GeminiSettings"));
 builder.Services.AddHttpClient<GeminiApiClient>();
 builder.Services.AddScoped<IRecommendationService, RecommendationService>();
+builder.Services.ConfigureCors();
 
 
 var app = builder.Build();
