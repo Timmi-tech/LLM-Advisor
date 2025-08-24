@@ -154,7 +154,7 @@ namespace Infrastructure.Extensions
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.WithOrigins("http://localhost:3001", "http://localhost:3000", "https://metaflix-eosin.vercel.app" )
+                    builder.WithOrigins("http://localhost:3000" )
                            .AllowAnyMethod()
                            .AllowAnyHeader()
                           .AllowCredentials();

@@ -55,6 +55,7 @@ app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "LLM-Advisor
 app.UseHttpsRedirection();
 
 app.UseRouting();
+app.UseCors("CorsPolicy");
 app.UseAuthentication();
 app.UseAuthorization(); 
 app.MapControllers();
