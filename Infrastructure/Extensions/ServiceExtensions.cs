@@ -154,7 +154,7 @@ namespace Infrastructure.Extensions
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.WithOrigins("http://localhost:3000","https://academiai.vercel.app" )
+                    builder.WithOrigins("https://academiai.vercel.app" )
                            .AllowAnyMethod()
                            .AllowAnyHeader()
                           .AllowCredentials();
