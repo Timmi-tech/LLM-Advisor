@@ -36,7 +36,8 @@ namespace Application.Services
                 FirstName = userForRegistration.Firstname,
                 LastName = userForRegistration.Lastname,
                 UserName = userForRegistration.Username,
-                Email = userForRegistration.Email,
+                Email = userForRegistration.Email
+                // Role = userForRegistration.Role
             };
             IdentityResult result = await _userManager.CreateAsync(user, userForRegistration.Password);
             return result;
@@ -90,6 +91,7 @@ namespace Application.Services
             [
                 new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.Name, user.UserName!),
+                new Claim(ClaimTypes.Role, user.Role.ToString()),
             ];
             return Task.FromResult(claims);
         }

@@ -65,8 +65,25 @@ namespace Presentation.Controllers
 
             var tokenDto = await _service.CreateToken(userEntity, populateExp: true);
             return Ok(tokenDto);
-
         }
+
+        // [HttpPost("register-admin")]
+        // [ServiceFilter(typeof(ValidationFilterAttribute))]
+        // public async Task<IActionResult> RegisterAdmin([FromBody] UserForRegistrationDto userForRegistration)
+        // {
+        //     var adminUser = userForRegistration with { Role = Domain.Entities.Enums.UserRole.Admin };
+        //     var result = await _service.RegisterUser(adminUser);
+        //     if (!result.Succeeded)
+        //     {
+        //         foreach (var error in result.Errors)
+        //         {
+        //             var key = string.IsNullOrWhiteSpace(error.Code) ? "Registration" : error.Code;
+        //             ModelState.TryAddModelError(key, error.Description);
+        //         }
+        //         return ValidationProblem(ModelState);
+        //     }
+        //     return StatusCode(201);
+        // }
     }
 
 }

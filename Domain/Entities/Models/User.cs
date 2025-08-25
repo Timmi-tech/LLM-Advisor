@@ -1,3 +1,4 @@
+using Domain.Entities.Enums;
 using Microsoft.AspNetCore.Identity;
 
 namespace Domain.Entities.Models
@@ -10,5 +11,6 @@ namespace Domain.Entities.Models
         public DateTime? RefreshTokenExpiryTime { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+        public UserRole Role { get; set; } = UserRole.Student;
     }
 } 

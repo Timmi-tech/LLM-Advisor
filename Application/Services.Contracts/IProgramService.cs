@@ -1,13 +1,14 @@
+using Application.DTOs;
 using Domain.Entities.Models;
 
-namespace Domain.Entities.Contracts
+namespace Application.Services.Contracts
 {
-    public interface IProgramRepository
+    public interface IProgramService
     {
         Task<List<PostgraduateProgram>> GetAllProgramsAsync();
-        Task<PostgraduateProgram> CreateProgramAsync(PostgraduateProgram program);
+        Task<PostgraduateProgram> CreateProgramAsync(CreateProgramDto programDto);
         Task<PostgraduateProgram?> GetProgramByIdAsync(int id);
-        Task<PostgraduateProgram> UpdateProgramAsync(PostgraduateProgram program);
+        Task<PostgraduateProgram> UpdateProgramAsync(int id, UpdateProgramDto programDto);
         Task DeleteProgramAsync(int id);
         Task<List<PostgraduateProgram>> SearchProgramsAsync(string? field, string? degreeType, string? studyMode);
     }

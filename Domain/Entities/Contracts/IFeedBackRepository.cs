@@ -7,6 +7,9 @@ namespace Domain.Entities.Contracts
         Task AddFeedbackAsync(FeedBack feedback);
         Task<List<FeedBack>> GetAllFeedbacksAsync();
         Task<double> GetAverageRatingAsync();
+        Task<int> GetTotalFeedbackCountAsync();
+        Task<Dictionary<int, int>> GetRatingDistributionAsync();
+        Task<List<FeedBack>> GetRecentFeedbacksAsync(int count = 10);
+        Task<List<(string Month, int Count, double AverageRating)>> GetMonthlyTrendsAsync(int months = 12);
     }
-
 }

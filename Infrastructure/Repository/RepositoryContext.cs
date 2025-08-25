@@ -14,6 +14,13 @@ namespace Infrastructure.Repository
             .Property(u => u.PerformanceLevel)
             .HasConversion<string>();
 
+            modelBuilder.Entity<PostgraduateProgram>()
+            .Property(p => p.Id)
+            .ValueGeneratedOnAdd();
+
+            modelBuilder.Entity<User>()
+            .Property(u => u.Role)
+            .HasConversion<string>();
         }
         public DbSet<PostgraduateProgram> PostgraduatePrograms { get; set; }
         public DbSet<StudentProfile> StudentProfiles { get; set; }

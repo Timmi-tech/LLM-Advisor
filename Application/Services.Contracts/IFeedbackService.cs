@@ -8,5 +8,6 @@ namespace Application.Services.Contracts
         Task SubmitFeedbackAsync(CreateFeedbackDto feedback,string userId);
         Task<IEnumerable<FeedbackResponseDto>> GetAllFeedbackAsync();
         Task<FeedbackStatisticsDto> GetAverageRatingAsync();
+        Task<FeedbackAnalyticsDto> GetFeedbackAnalyticsAsync();
     }
 }

@@ -32,6 +32,8 @@ builder.Host.ConfigureSerilogService();
 builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.ConfigureFeedbackService();
 builder.Services.ConfigureFeedbackRepository();
+builder.Services.ConfigureProgramService();
+builder.Services.ConfigureUserService();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.ConfigureSwagger(); 
 builder.Services.Configure<GeminiSettings>(

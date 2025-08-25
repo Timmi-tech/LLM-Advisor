@@ -57,6 +57,14 @@ namespace Infrastructure.Extensions
         {
             services.AddScoped<IFeedBackRepository, FeedBackRepository>();
         }
+        public static void ConfigureProgramService(this IServiceCollection services)
+        {
+            services.AddScoped<IProgramService, ProgramService>();
+        }
+        public static void ConfigureUserService(this IServiceCollection services)
+        {
+            services.AddScoped<IUserService, UserService>();
+        }
         public static void ConfigureIdentity(this IServiceCollection services)
         {
             IdentityBuilder builder = services.AddIdentity<User, IdentityRole>(options =>

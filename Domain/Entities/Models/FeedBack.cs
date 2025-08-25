@@ -11,7 +11,9 @@ namespace Domain.Entities.Models
         [Range(1, 5)]
         public int Rating { get; set; }  // 1–5 stars
         public DateTime SubmittedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        
         // Navigation Properties
-        // public User? User { get; set; }
+        public User? User { get; set; }
     }
 }

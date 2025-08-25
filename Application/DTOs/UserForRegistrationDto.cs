@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 using System.Text.Json;
 using Domain.Entities.Models;
+using Domain.Entities.Enums;
 
 namespace Application.DTOs
 {
@@ -14,6 +15,7 @@ namespace Application.DTOs
         public string Username { get; init; } = string.Empty;
         public string Password { get; init; } = string.Empty;
         public string Email { get; init; } = string.Empty;
+        // public UserRole Role { get; init; } = UserRole.Admin;
     }
     // This DTO is used for user authentication
     public record UserForAuthenticationDto

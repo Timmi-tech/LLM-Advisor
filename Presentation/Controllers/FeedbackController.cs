@@ -37,6 +37,14 @@ namespace Presentation.Controllers
             var stats = await _service.GetAverageRatingAsync();
             return Ok(stats);
         }
+
+        [HttpGet("analytics")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetFeedbackAnalytics()
+        {
+            var analytics = await _service.GetFeedbackAnalyticsAsync();
+            return Ok(analytics);
+        }
         private string? GetUserIdFromClaims()
         {
             return User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
