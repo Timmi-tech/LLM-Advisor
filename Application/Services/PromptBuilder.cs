@@ -18,7 +18,8 @@ namespace Application.Services
             prompt.AppendLine($"- Previous Degree: {student.PreviousDegree}");
             prompt.AppendLine($"- Performance: {student.PerformanceLevel}");
             prompt.AppendLine($"- Academic Interests: {string.Join(", ", student.AcademicInterests)}");
-            prompt.AppendLine($"- Desired Programs: {string.Join(", ", student.DesiredPrograms)}");
+            var desiredPrograms = student.DesiredPrograms?.Any() == true ? string.Join(", ", student.DesiredPrograms) : "Not specified";
+            prompt.AppendLine($"- Preferred Course of Study: {desiredPrograms}");
             prompt.AppendLine();
             prompt.AppendLine("Available Programs at University of Lagos:");
             foreach (var program in programs)
