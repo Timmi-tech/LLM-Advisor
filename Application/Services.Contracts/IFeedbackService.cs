@@ -9,5 +9,6 @@ namespace Application.Services.Contracts
         Task<IEnumerable<FeedbackResponseDto>> GetAllFeedbackAsync();
         Task<FeedbackStatisticsDto> GetAverageRatingAsync();
         Task<FeedbackAnalyticsDto> GetFeedbackAnalyticsAsync();
+        Task<PaginatedResultDto<TopFeedbackDto>> GetPaginatedRecentFeedbacksAsync(PaginationParametersDto parameters);
     }
 }

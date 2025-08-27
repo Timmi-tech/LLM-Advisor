@@ -10,6 +10,7 @@ namespace Domain.Entities.Contracts
         Task<int> GetTotalFeedbackCountAsync();
         Task<Dictionary<int, int>> GetRatingDistributionAsync();
         Task<List<FeedBack>> GetRecentFeedbacksAsync(int count = 10);
+        Task<(List<FeedBack> feedbacks, int totalCount)> GetPaginatedRecentFeedbacksAsync(int pageNumber, int pageSize);
         Task<List<(string Month, int Count, double AverageRating)>> GetMonthlyTrendsAsync(int months = 12);
     }
 }

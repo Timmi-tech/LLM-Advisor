@@ -50,7 +50,7 @@ namespace Application.Services
             var averageRating = totalFeedbacks > 0 ? await _repository.GetAverageRatingAsync() : 0;
             var ratingDistribution = await _repository.GetRatingDistributionAsync();
             var monthlyTrends = await _repository.GetMonthlyTrendsAsync();
-            var recentFeedbacks = await _repository.GetRecentFeedbacksAsync();
+            var recentFeedbacks = await _repository.GetRecentFeedbacksAsync(5);
 
             var analytics = new FeedbackAnalyticsDto
             {
@@ -95,6 +95,28 @@ namespace Application.Services
             };
 
             return analytics;
+        }
+
+        public async Task<PaginatedResultDto<TopFeedbackDto>> GetPaginatedRecentFeedbacksAsync(PaginationParametersDto parameters)
+        {
+            var (feedbacks, totalCount) = await _repository.GetPaginatedRecentFeedbacksAsync(parameters.PageNumber, parameters.PageSize);
+            
+            var items = feedbacks.Select(f => new TopFeedbackDto
+            {
+                Id = f.Id,
+                Rating = f.Rating,
+                Comment = f.Message,
+                CreatedAt = f.CreatedAt,
+                UserName = f.User?.FirstName + " " + f.User?.LastName ?? "Anonymous"
+            }).ToList();
+
+            return new PaginatedResultDto<TopFeedbackDto>
+            {
+                Items = items,
+                TotalCount = totalCount,
+                PageNumber = parameters.PageNumber,
+                PageSize = parameters.PageSize
+            };
         }
     }
 }

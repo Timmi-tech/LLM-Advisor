@@ -45,6 +45,13 @@ namespace Presentation.Controllers
             var analytics = await _service.GetFeedbackAnalyticsAsync();
             return Ok(analytics);
         }
+
+        [HttpGet("recent/paginated")]
+        public async Task<IActionResult> GetPaginatedRecentFeedbacks([FromQuery] PaginationParametersDto parameters)
+        {
+            var result = await _service.GetPaginatedRecentFeedbacksAsync(parameters);
+            return Ok(result);
+        }
         private string? GetUserIdFromClaims()
         {
             return User.FindFirst(ClaimTypes.NameIdentifier)?.Value;

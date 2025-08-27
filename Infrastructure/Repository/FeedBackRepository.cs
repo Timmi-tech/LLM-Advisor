@@ -47,6 +47,22 @@ namespace Infrastructure.Repository
                                  .ToListAsync();
         }
 
+        public async Task<(List<FeedBack> feedbacks, int totalCount)> GetPaginatedRecentFeedbacksAsync(int pageNumber, int pageSize)
+        {
+            var query = _context.Feedbacks
+                               .Include(f => f.User)
+                               .OrderByDescending(f => f.CreatedAt)
+                               .AsNoTracking();
+            
+            var totalCount = await query.CountAsync();
+            var feedbacks = await query
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            return (feedbacks, totalCount);
+        }
+
         public async Task<List<(string Month, int Count, double AverageRating)>> GetMonthlyTrendsAsync(int months = 12)
         {
             var startDate = DateTime.UtcNow.AddMonths(-months);
