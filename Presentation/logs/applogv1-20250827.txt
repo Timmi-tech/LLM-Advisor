@@ -1,0 +1,99 @@
+2025-08-27 14:00:57.865 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-27 14:00:58.394 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-27 14:00:58.403 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-27 14:00:58.415 +01:00 [INF] Hosting environment: Development
+2025-08-27 14:00:58.423 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-27 14:01:06.536 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/ - null null
+2025-08-27 14:01:06.619 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-27 14:01:06.770 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/ - 404 0 null 236.8661ms
+2025-08-27 14:01:07.111 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5043/, Response status code: 404
+2025-08-27 14:01:11.293 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-27 14:01:11.665 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 372.6108ms
+2025-08-27 14:01:51.630 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2025-08-27 14:01:51.649 +01:00 [INF] CORS policy execution failed.
+2025-08-27 14:01:51.654 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2025-08-27 14:01:51.662 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-27 14:01:51.716 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-27 14:01:56.431 +01:00 [INF] Executed DbCommand (327ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-27 14:01:57.290 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-27 14:01:57.565 +01:00 [INF] Executed DbCommand (247ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-27 14:01:58.126 +01:00 [INF] Executed DbCommand (245ms) [Parameters=[@p21='?', @p0='?' (DbType = Int32), @p1='?', @p22='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "Role" = @p16, "SecurityStamp" = @p17, "TwoFactorEnabled" = @p18, "UpdatedAt" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22;
+2025-08-27 14:01:58.263 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2025-08-27 14:01:58.297 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 6568.1596ms
+2025-08-27 14:01:58.303 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-27 14:01:58.340 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 6710.4639ms
+2025-08-27 14:02:26.270 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/programs/paginated?PageNumber=1&PageSize=1 - null null
+2025-08-27 14:02:26.372 +01:00 [INF] Executing endpoint 'Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation)'
+2025-08-27 14:02:26.392 +01:00 [INF] Route matched with {action = "GetPaginatedPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaginatedPrograms(Application.DTOs.PaginationParametersDto) on controller Presentation.Controllers.ProgramController (Presentation).
+2025-08-27 14:02:27.073 +01:00 [INF] Executed DbCommand (392ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PostgraduatePrograms" AS p
+2025-08-27 14:02:27.093 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-08-27 14:02:27.100 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-08-27 14:02:27.352 +01:00 [INF] Executed DbCommand (240ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2025-08-27 14:02:27.370 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.PaginatedResultDto`1[[Domain.Entities.Models.PostgraduateProgram, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-27 14:02:27.400 +01:00 [INF] Executed action Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation) in 999.7485ms
+2025-08-27 14:02:27.405 +01:00 [INF] Executed endpoint 'Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation)'
+2025-08-27 14:02:27.417 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/programs/paginated?PageNumber=1&PageSize=1 - 200 null application/json; charset=utf-8 1147.3ms
+2025-08-27 14:02:42.542 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/programs/paginated?PageNumber=1&PageSize=12 - null null
+2025-08-27 14:02:42.557 +01:00 [INF] Executing endpoint 'Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation)'
+2025-08-27 14:02:42.563 +01:00 [INF] Route matched with {action = "GetPaginatedPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaginatedPrograms(Application.DTOs.PaginationParametersDto) on controller Presentation.Controllers.ProgramController (Presentation).
+2025-08-27 14:02:43.041 +01:00 [INF] Executed DbCommand (438ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PostgraduatePrograms" AS p
+2025-08-27 14:02:43.326 +01:00 [INF] Executed DbCommand (275ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2025-08-27 14:02:43.335 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.PaginatedResultDto`1[[Domain.Entities.Models.PostgraduateProgram, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-27 14:02:43.343 +01:00 [INF] Executed action Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation) in 765.6003ms
+2025-08-27 14:02:43.351 +01:00 [INF] Executed endpoint 'Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation)'
+2025-08-27 14:02:43.355 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/programs/paginated?PageNumber=1&PageSize=12 - 200 null application/json; charset=utf-8 812.9197ms
+2025-08-27 14:03:19.106 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/programs/paginated?PageNumber=2&PageSize=12 - null null
+2025-08-27 14:03:19.121 +01:00 [INF] Executing endpoint 'Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation)'
+2025-08-27 14:03:19.125 +01:00 [INF] Route matched with {action = "GetPaginatedPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaginatedPrograms(Application.DTOs.PaginationParametersDto) on controller Presentation.Controllers.ProgramController (Presentation).
+2025-08-27 14:03:19.434 +01:00 [INF] Executed DbCommand (287ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PostgraduatePrograms" AS p
+2025-08-27 14:03:19.444 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-08-27 14:03:19.455 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-08-27 14:03:19.803 +01:00 [INF] Executed DbCommand (339ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+LIMIT @__p_0 OFFSET @__p_0
+2025-08-27 14:03:19.812 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.PaginatedResultDto`1[[Domain.Entities.Models.PostgraduateProgram, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-27 14:03:19.852 +01:00 [INF] Executed action Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation) in 712.961ms
+2025-08-27 14:03:19.858 +01:00 [INF] Executed endpoint 'Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation)'
+2025-08-27 14:03:19.869 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/programs/paginated?PageNumber=2&PageSize=12 - 200 null application/json; charset=utf-8 763.5042ms
+2025-08-27 14:03:31.039 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/programs/paginated?PageNumber=1&PageSize=12 - null null
+2025-08-27 14:03:31.057 +01:00 [INF] Executing endpoint 'Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation)'
+2025-08-27 14:03:31.061 +01:00 [INF] Route matched with {action = "GetPaginatedPrograms", controller = "Program"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaginatedPrograms(Application.DTOs.PaginationParametersDto) on controller Presentation.Controllers.ProgramController (Presentation).
+2025-08-27 14:03:31.452 +01:00 [INF] Executed DbCommand (377ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "PostgraduatePrograms" AS p
+2025-08-27 14:03:31.862 +01:00 [INF] Executed DbCommand (400ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2025-08-27 14:03:31.872 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.PaginatedResultDto`1[[Domain.Entities.Models.PostgraduateProgram, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-27 14:03:31.877 +01:00 [INF] Executed action Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation) in 804.6142ms
+2025-08-27 14:03:31.888 +01:00 [INF] Executed endpoint 'Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation)'
+2025-08-27 14:03:31.894 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/programs/paginated?PageNumber=1&PageSize=12 - 200 null application/json; charset=utf-8 855.503ms
+2025-08-27 14:03:46.230 +01:00 [INF] Application is shutting down...

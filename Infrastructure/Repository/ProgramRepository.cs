@@ -48,6 +48,18 @@ namespace Infrastructure.Repository
             }
         }
 
+        public async Task<(List<PostgraduateProgram> programs, int totalCount)> GetPaginatedProgramsAsync(int pageNumber, int pageSize)
+        {
+            var query = _context.PostgraduatePrograms.AsNoTracking();
+            var totalCount = await query.CountAsync();
+            var programs = await query
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            return (programs, totalCount);
+        }
+
         public async Task<List<PostgraduateProgram>> SearchProgramsAsync(string? field, string? degreeType, string? studyMode)
         {
             var query = _context.PostgraduatePrograms.AsNoTracking().AsQueryable();

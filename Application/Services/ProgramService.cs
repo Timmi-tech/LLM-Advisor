@@ -51,6 +51,19 @@ namespace Application.Services
             await _programRepository.DeleteProgramAsync(id);
         }
 
+        public async Task<PaginatedResultDto<PostgraduateProgram>> GetPaginatedProgramsAsync(PaginationParametersDto parameters)
+        {
+            var (programs, totalCount) = await _programRepository.GetPaginatedProgramsAsync(parameters.PageNumber, parameters.PageSize);
+            
+            return new PaginatedResultDto<PostgraduateProgram>
+            {
+                Items = programs,
+                TotalCount = totalCount,
+                PageNumber = parameters.PageNumber,
+                PageSize = parameters.PageSize
+            };
+        }
+
         public async Task<List<PostgraduateProgram>> SearchProgramsAsync(string? field, string? degreeType, string? studyMode)
         {
             return await _programRepository.SearchProgramsAsync(field, degreeType, studyMode);
