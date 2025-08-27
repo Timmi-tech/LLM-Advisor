@@ -55,6 +55,13 @@ namespace Presentation.Controllers
             }
         }
 
+        [HttpGet("total-count")]
+        public async Task<IActionResult> GetTotalUsersCount()
+        {
+            var count = await _userService.GetTotalUsersCountAsync();
+            return Ok(new { totalUsers = count });
+        }
+
         private string? GetUserIdFromClaims()
         {
             return User.FindFirst(ClaimTypes.NameIdentifier)?.Value;

@@ -58,5 +58,10 @@ namespace Application.Services
             if (!result.Succeeded)
                 throw new InvalidOperationException("Password change failed");
         }
+
+        public async Task<int> GetTotalUsersCountAsync()
+        {
+            return await Task.FromResult(_userManager.Users.Count());
+        }
     }
 }

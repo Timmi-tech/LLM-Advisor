@@ -97,3 +97,51 @@ LIMIT @__p_1 OFFSET @__p_0
 2025-08-27 14:03:31.888 +01:00 [INF] Executed endpoint 'Presentation.Controllers.ProgramController.GetPaginatedPrograms (Presentation)'
 2025-08-27 14:03:31.894 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/programs/paginated?PageNumber=1&PageSize=12 - 200 null application/json; charset=utf-8 855.503ms
 2025-08-27 14:03:46.230 +01:00 [INF] Application is shutting down...
+2025-08-27 14:23:11.129 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-27 14:23:11.516 +01:00 [INF] Now listening on: http://localhost:5043
+2025-08-27 14:23:11.523 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-27 14:23:11.528 +01:00 [INF] Hosting environment: Development
+2025-08-27 14:23:11.531 +01:00 [INF] Content root path: C:\Users\user\Desktop\c##\LLM-Advisor\presentation
+2025-08-27 14:23:30.419 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2025-08-27 14:23:30.798 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 384.1424ms
+2025-08-27 14:23:32.401 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2025-08-27 14:23:32.746 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 345.8008ms
+2025-08-27 14:27:10.271 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2025-08-27 14:27:10.308 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-27 14:27:10.351 +01:00 [INF] CORS policy execution failed.
+2025-08-27 14:27:10.357 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2025-08-27 14:27:10.412 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-27 14:27:10.450 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2025-08-27 14:27:14.992 +01:00 [INF] Executed DbCommand (307ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-27 14:27:15.632 +01:00 [INF] Executed DbCommand (245ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-08-27 14:27:15.896 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-08-27 14:27:16.277 +01:00 [INF] Executed DbCommand (248ms) [Parameters=[@p21='?', @p0='?' (DbType = Int32), @p1='?', @p22='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "Role" = @p16, "SecurityStamp" = @p17, "TwoFactorEnabled" = @p18, "UpdatedAt" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22;
+2025-08-27 14:27:16.376 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2025-08-27 14:27:16.407 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 5936.6053ms
+2025-08-27 14:27:16.419 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2025-08-27 14:27:16.441 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 6170.1332ms
+2025-08-27 14:27:48.797 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/api/user/total-count - null null
+2025-08-27 14:27:48.956 +01:00 [INF] Executing endpoint 'Presentation.Controllers.UserController.GetTotalUsersCount (Presentation)'
+2025-08-27 14:27:48.971 +01:00 [INF] Route matched with {action = "GetTotalUsersCount", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTotalUsersCount() on controller Presentation.Controllers.UserController (Presentation).
+2025-08-27 14:27:49.435 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "AspNetUsers" AS a
+2025-08-27 14:27:49.448 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-27 14:27:49.460 +01:00 [INF] Executed action Presentation.Controllers.UserController.GetTotalUsersCount (Presentation) in 480.5385ms
+2025-08-27 14:27:49.467 +01:00 [INF] Executed endpoint 'Presentation.Controllers.UserController.GetTotalUsersCount (Presentation)'
+2025-08-27 14:27:49.473 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/api/user/total-count - 200 null application/json; charset=utf-8 676.7276ms
+2025-08-27 14:32:35.609 +01:00 [INF] Application is shutting down...

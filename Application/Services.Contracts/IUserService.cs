@@ -7,5 +7,6 @@ namespace Application.Services.Contracts
         Task<UserProfileDto?> GetUserProfileAsync(string userId);
         Task<UserProfileDto> UpdateUserProfileAsync(string userId, UpdateUserProfileDto updateDto);
         Task ChangePasswordAsync(string userId, ChangePasswordDto changePasswordDto);
+        Task<int> GetTotalUsersCountAsync();
     }
 }
