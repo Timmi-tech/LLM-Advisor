@@ -26,7 +26,7 @@ namespace Application.Services
                 case 2:
                     state.Student.AcademicInterests = userInput.Split(',').Select(x => x.Trim()).ToList();
                     state.Step++;
-                    return "Which programs are you most interested in applying for? (separate with commas)";
+                    return "Enter your preferred course of study, if any (e.g., MSc, MBA, PhD) - Leave blank if unsure";
 
                 case 3:
                     state.Student.DesiredPrograms = userInput.Split(',').Select(x => x.Trim()).ToList();
