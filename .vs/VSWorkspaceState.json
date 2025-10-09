@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Domain",
+    "\\Domain\\Entities",
+    "\\Domain\\Entities\\Contracts",
+    "\\Domain\\Entities\\Models",
+    "\\Infrastructure",
+    "\\Infrastructure\\ContextFactory",
+    "\\Infrastructure\\Extensions",
+    "\\Infrastructure\\Repository"
+  ],
+  "PreviewInSolutionExplorer": false
+}
