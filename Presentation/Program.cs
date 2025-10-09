@@ -45,6 +45,43 @@ builder.Services.ConfigureCors();
 
 var app = builder.Build();
 
+// Seed JSON data
+// using (var scope = app.Services.CreateScope())
+// {
+//     var context = scope.ServiceProvider.GetRequiredService<RepositoryContext>();
+
+//     string jsonFilePath = "Program.json";
+
+//     if (File.Exists(jsonFilePath))
+//     {
+//         string json = File.ReadAllText(jsonFilePath);
+//         var response = JsonSerializer.Deserialize<PostgraduateProgramsResponse>(json);
+
+//         if (response != null)
+//         {
+//             foreach (var program in response.PostgraduatePrograms)
+//             {
+//                 // Avoid duplicates by checking Id
+//                 var exists = context.PostgraduatePrograms.Any(p => p.Id == program.Id);
+//                 if (!exists)
+//                 {
+//                     context.PostgraduatePrograms.Add(program);
+//                 }
+//             }
+//             context.SaveChanges();
+//             Console.WriteLine("Data inserted successfully!");
+//         }
+//         else
+//         {
+//             Console.WriteLine("Failed to deserialize JSON.");
+//         }
+//     }
+//     else
+//     {
+//         Console.WriteLine("JSON file not found!");
+//     }
+// }
+
 
 if (app.Environment.IsProduction())
 {
