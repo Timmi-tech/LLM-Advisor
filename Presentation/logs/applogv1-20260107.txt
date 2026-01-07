@@ -1,0 +1,1966 @@
+2026-01-07 09:59:29.209 +01:00 [INF] Executed DbCommand (304ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:29.683 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:29.932 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:30.194 +01:00 [INF] Executed DbCommand (248ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:30.446 +01:00 [INF] Executed DbCommand (241ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:30.704 +01:00 [INF] Executed DbCommand (249ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:30.984 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:31.285 +01:00 [INF] Executed DbCommand (252ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:31.564 +01:00 [INF] Executed DbCommand (240ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:31.870 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:32.123 +01:00 [INF] Executed DbCommand (243ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:32.408 +01:00 [INF] Executed DbCommand (273ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:32.659 +01:00 [INF] Executed DbCommand (238ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:32.913 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:33.153 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:33.413 +01:00 [INF] Executed DbCommand (251ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:33.653 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:33.905 +01:00 [INF] Executed DbCommand (243ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:34.144 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:34.385 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:34.626 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:34.865 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:35.110 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:35.355 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:35.616 +01:00 [INF] Executed DbCommand (250ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:35.893 +01:00 [INF] Executed DbCommand (267ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:36.138 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:36.378 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:36.622 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:36.867 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:37.110 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:37.357 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:37.602 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:37.847 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:38.091 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:38.335 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:38.575 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:38.853 +01:00 [INF] Executed DbCommand (270ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:39.093 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:39.345 +01:00 [INF] Executed DbCommand (243ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:39.587 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:39.827 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:40.070 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:40.340 +01:00 [INF] Executed DbCommand (261ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:40.586 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:40.825 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:41.064 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:41.302 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:41.539 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:41.779 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:42.017 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:42.256 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:42.496 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:42.737 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:42.989 +01:00 [INF] Executed DbCommand (244ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:43.225 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:43.466 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:43.708 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:43.945 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:44.184 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:44.428 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:44.667 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:44.907 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:45.154 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:45.411 +01:00 [INF] Executed DbCommand (249ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:45.649 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:45.887 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:46.124 +01:00 [INF] Executed DbCommand (229ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:46.363 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:46.611 +01:00 [INF] Executed DbCommand (240ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:46.851 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:47.099 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:47.338 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:47.577 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:47.816 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:48.060 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:48.302 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:48.539 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:48.780 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:49.021 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:49.259 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:49.500 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:49.737 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:49.975 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:50.212 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:50.451 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:50.689 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:50.930 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:51.172 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:51.421 +01:00 [INF] Executed DbCommand (242ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:51.661 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:51.903 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:52.142 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:52.387 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:52.638 +01:00 [INF] Executed DbCommand (243ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:52.996 +01:00 [INF] Executed DbCommand (350ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:53.293 +01:00 [INF] Executed DbCommand (289ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:53.531 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:53.810 +01:00 [INF] Executed DbCommand (272ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:54.050 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:54.293 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:54.532 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:54.772 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:55.011 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:55.263 +01:00 [INF] Executed DbCommand (245ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:55.574 +01:00 [INF] Executed DbCommand (304ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:55.891 +01:00 [INF] Executed DbCommand (309ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:56.129 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:56.373 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:56.615 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:56.854 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:57.099 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:57.338 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:57.580 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:57.820 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:58.064 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:58.318 +01:00 [INF] Executed DbCommand (245ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:58.556 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:58.802 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:59.049 +01:00 [INF] Executed DbCommand (240ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:59.290 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:59.547 +01:00 [INF] Executed DbCommand (246ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 09:59:59.787 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:00.029 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:00.269 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:00.508 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:00.749 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:00.994 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:01.239 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:01.503 +01:00 [INF] Executed DbCommand (254ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:01.744 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:01.986 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:02.225 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:02.466 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:02.707 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:02.948 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:03.186 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:03.434 +01:00 [INF] Executed DbCommand (241ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:03.688 +01:00 [INF] Executed DbCommand (247ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:03.936 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:04.187 +01:00 [INF] Executed DbCommand (244ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:04.427 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:04.667 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:04.910 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:05.154 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:05.393 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:05.633 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:05.884 +01:00 [INF] Executed DbCommand (244ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:06.133 +01:00 [INF] Executed DbCommand (240ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:06.379 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:06.625 +01:00 [INF] Executed DbCommand (238ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:06.868 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:07.106 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:07.347 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:07.587 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:07.835 +01:00 [INF] Executed DbCommand (238ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:08.074 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:08.314 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:08.608 +01:00 [INF] Executed DbCommand (287ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:08.852 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:09.093 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:09.332 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:09.572 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:09.811 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:10.061 +01:00 [INF] Executed DbCommand (243ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:10.308 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:10.547 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:10.796 +01:00 [INF] Executed DbCommand (241ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:11.037 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:11.281 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:11.536 +01:00 [INF] Executed DbCommand (246ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:11.777 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:12.063 +01:00 [INF] Executed DbCommand (279ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:12.301 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:12.559 +01:00 [INF] Executed DbCommand (250ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:12.799 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:13.042 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:13.282 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:13.526 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:13.779 +01:00 [INF] Executed DbCommand (245ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:14.027 +01:00 [INF] Executed DbCommand (240ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:14.270 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:14.515 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:14.766 +01:00 [INF] Executed DbCommand (243ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:15.005 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:15.250 +01:00 [INF] Executed DbCommand (238ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:15.506 +01:00 [INF] Executed DbCommand (247ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:15.814 +01:00 [INF] Executed DbCommand (300ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:16.054 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:16.293 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:16.544 +01:00 [INF] Executed DbCommand (242ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:16.784 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:17.024 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:17.264 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:17.509 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:17.747 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:17.989 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:18.231 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:18.469 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:18.708 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:18.952 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:19.194 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:19.437 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:19.681 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:19.921 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:20.170 +01:00 [INF] Executed DbCommand (240ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:20.437 +01:00 [INF] Executed DbCommand (258ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:20.675 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:20.914 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:21.154 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:21.400 +01:00 [INF] Executed DbCommand (237ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:21.641 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:21.880 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:22.119 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:22.358 +01:00 [INF] Executed DbCommand (231ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:22.597 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:22.841 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:23.087 +01:00 [INF] Executed DbCommand (238ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:23.327 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:23.567 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:23.808 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:24.049 +01:00 [INF] Executed DbCommand (232ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:24.292 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:24.549 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:24.792 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:25.070 +01:00 [INF] Executed DbCommand (265ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:25.326 +01:00 [INF] Executed DbCommand (248ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:25.685 +01:00 [INF] Executed DbCommand (350ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:25.992 +01:00 [INF] Executed DbCommand (298ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:26.234 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:00:26.860 +01:00 [INF] Executed DbCommand (484ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = Int32), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?' (DbType = Int32), @p11='?', @p12='?', @p13='?', @p14='?', @p15='?' (DbType = Int32), @p16='?', @p17='?', @p18='?', @p19='?', @p20='?' (DbType = Int32), @p21='?', @p22='?', @p23='?', @p24='?', @p25='?' (DbType = Int32), @p26='?', @p27='?', @p28='?', @p29='?', @p30='?' (DbType = Int32), @p31='?', @p32='?', @p33='?', @p34='?', @p35='?' (DbType = Int32), @p36='?', @p37='?', @p38='?', @p39='?', @p40='?' (DbType = Int32), @p41='?', @p42='?', @p43='?', @p44='?', @p45='?' (DbType = Int32), @p46='?', @p47='?', @p48='?', @p49='?', @p50='?' (DbType = Int32), @p51='?', @p52='?', @p53='?', @p54='?', @p55='?' (DbType = Int32), @p56='?', @p57='?', @p58='?', @p59='?', @p60='?' (DbType = Int32), @p61='?', @p62='?', @p63='?', @p64='?', @p65='?' (DbType = Int32), @p66='?', @p67='?', @p68='?', @p69='?', @p70='?' (DbType = Int32), @p71='?', @p72='?', @p73='?', @p74='?', @p75='?' (DbType = Int32), @p76='?', @p77='?', @p78='?', @p79='?', @p80='?' (DbType = Int32), @p81='?', @p82='?', @p83='?', @p84='?', @p85='?' (DbType = Int32), @p86='?', @p87='?', @p88='?', @p89='?', @p90='?' (DbType = Int32), @p91='?', @p92='?', @p93='?', @p94='?', @p95='?' (DbType = Int32), @p96='?', @p97='?', @p98='?', @p99='?', @p100='?' (DbType = Int32), @p101='?', @p102='?', @p103='?', @p104='?', @p105='?' (DbType = Int32), @p106='?', @p107='?', @p108='?', @p109='?', @p110='?' (DbType = Int32), @p111='?', @p112='?', @p113='?', @p114='?', @p115='?' (DbType = Int32), @p116='?', @p117='?', @p118='?', @p119='?', @p120='?' (DbType = Int32), @p121='?', @p122='?', @p123='?', @p124='?', @p125='?' (DbType = Int32), @p126='?', @p127='?', @p128='?', @p129='?', @p130='?' (DbType = Int32), @p131='?', @p132='?', @p133='?', @p134='?', @p135='?' (DbType = Int32), @p136='?', @p137='?', @p138='?', @p139='?', @p140='?' (DbType = Int32), @p141='?', @p142='?', @p143='?', @p144='?', @p145='?' (DbType = Int32), @p146='?', @p147='?', @p148='?', @p149='?', @p150='?' (DbType = Int32), @p151='?', @p152='?', @p153='?', @p154='?', @p155='?' (DbType = Int32), @p156='?', @p157='?', @p158='?', @p159='?', @p160='?' (DbType = Int32), @p161='?', @p162='?', @p163='?', @p164='?', @p165='?' (DbType = Int32), @p166='?', @p167='?', @p168='?', @p169='?', @p170='?' (DbType = Int32), @p171='?', @p172='?', @p173='?', @p174='?', @p175='?' (DbType = Int32), @p176='?', @p177='?', @p178='?', @p179='?', @p180='?' (DbType = Int32), @p181='?', @p182='?', @p183='?', @p184='?', @p185='?' (DbType = Int32), @p186='?', @p187='?', @p188='?', @p189='?', @p190='?' (DbType = Int32), @p191='?', @p192='?', @p193='?', @p194='?', @p195='?' (DbType = Int32), @p196='?', @p197='?', @p198='?', @p199='?', @p200='?' (DbType = Int32), @p201='?', @p202='?', @p203='?', @p204='?', @p205='?' (DbType = Int32), @p206='?', @p207='?', @p208='?', @p209='?', @p210='?' (DbType = Int32), @p211='?', @p212='?', @p213='?', @p214='?', @p215='?' (DbType = Int32), @p216='?', @p217='?', @p218='?', @p219='?', @p220='?' (DbType = Int32), @p221='?', @p222='?', @p223='?', @p224='?', @p225='?' (DbType = Int32), @p226='?', @p227='?', @p228='?', @p229='?', @p230='?' (DbType = Int32), @p231='?', @p232='?', @p233='?', @p234='?', @p235='?' (DbType = Int32), @p236='?', @p237='?', @p238='?', @p239='?', @p240='?' (DbType = Int32), @p241='?', @p242='?', @p243='?', @p244='?', @p245='?' (DbType = Int32), @p246='?', @p247='?', @p248='?', @p249='?', @p250='?' (DbType = Int32), @p251='?', @p252='?', @p253='?', @p254='?', @p255='?' (DbType = Int32), @p256='?', @p257='?', @p258='?', @p259='?', @p260='?' (DbType = Int32), @p261='?', @p262='?', @p263='?', @p264='?', @p265='?' (DbType = Int32), @p266='?', @p267='?', @p268='?', @p269='?', @p270='?' (DbType = Int32), @p271='?', @p272='?', @p273='?', @p274='?', @p275='?' (DbType = Int32), @p276='?', @p277='?', @p278='?', @p279='?', @p280='?' (DbType = Int32), @p281='?', @p282='?', @p283='?', @p284='?', @p285='?' (DbType = Int32), @p286='?', @p287='?', @p288='?', @p289='?', @p290='?' (DbType = Int32), @p291='?', @p292='?', @p293='?', @p294='?', @p295='?' (DbType = Int32), @p296='?', @p297='?', @p298='?', @p299='?', @p300='?' (DbType = Int32), @p301='?', @p302='?', @p303='?', @p304='?', @p305='?' (DbType = Int32), @p306='?', @p307='?', @p308='?', @p309='?', @p310='?' (DbType = Int32), @p311='?', @p312='?', @p313='?', @p314='?', @p315='?' (DbType = Int32), @p316='?', @p317='?', @p318='?', @p319='?', @p320='?' (DbType = Int32), @p321='?', @p322='?', @p323='?', @p324='?', @p325='?' (DbType = Int32), @p326='?', @p327='?', @p328='?', @p329='?', @p330='?' (DbType = Int32), @p331='?', @p332='?', @p333='?', @p334='?', @p335='?' (DbType = Int32), @p336='?', @p337='?', @p338='?', @p339='?', @p340='?' (DbType = Int32), @p341='?', @p342='?', @p343='?', @p344='?', @p345='?' (DbType = Int32), @p346='?', @p347='?', @p348='?', @p349='?', @p350='?' (DbType = Int32), @p351='?', @p352='?', @p353='?', @p354='?', @p355='?' (DbType = Int32), @p356='?', @p357='?', @p358='?', @p359='?', @p360='?' (DbType = Int32), @p361='?', @p362='?', @p363='?', @p364='?', @p365='?' (DbType = Int32), @p366='?', @p367='?', @p368='?', @p369='?', @p370='?' (DbType = Int32), @p371='?', @p372='?', @p373='?', @p374='?', @p375='?' (DbType = Int32), @p376='?', @p377='?', @p378='?', @p379='?', @p380='?' (DbType = Int32), @p381='?', @p382='?', @p383='?', @p384='?', @p385='?' (DbType = Int32), @p386='?', @p387='?', @p388='?', @p389='?', @p390='?' (DbType = Int32), @p391='?', @p392='?', @p393='?', @p394='?', @p395='?' (DbType = Int32), @p396='?', @p397='?', @p398='?', @p399='?', @p400='?' (DbType = Int32), @p401='?', @p402='?', @p403='?', @p404='?', @p405='?' (DbType = Int32), @p406='?', @p407='?', @p408='?', @p409='?', @p410='?' (DbType = Int32), @p411='?', @p412='?', @p413='?', @p414='?', @p415='?' (DbType = Int32), @p416='?', @p417='?', @p418='?', @p419='?', @p420='?' (DbType = Int32), @p421='?', @p422='?', @p423='?', @p424='?', @p425='?' (DbType = Int32), @p426='?', @p427='?', @p428='?', @p429='?', @p430='?' (DbType = Int32), @p431='?', @p432='?', @p433='?', @p434='?', @p435='?' (DbType = Int32), @p436='?', @p437='?', @p438='?', @p439='?', @p440='?' (DbType = Int32), @p441='?', @p442='?', @p443='?', @p444='?', @p445='?' (DbType = Int32), @p446='?', @p447='?', @p448='?', @p449='?', @p450='?' (DbType = Int32), @p451='?', @p452='?', @p453='?', @p454='?', @p455='?' (DbType = Int32), @p456='?', @p457='?', @p458='?', @p459='?', @p460='?' (DbType = Int32), @p461='?', @p462='?', @p463='?', @p464='?', @p465='?' (DbType = Int32), @p466='?', @p467='?', @p468='?', @p469='?', @p470='?' (DbType = Int32), @p471='?', @p472='?', @p473='?', @p474='?', @p475='?' (DbType = Int32), @p476='?', @p477='?', @p478='?', @p479='?', @p480='?' (DbType = Int32), @p481='?', @p482='?', @p483='?', @p484='?', @p485='?' (DbType = Int32), @p486='?', @p487='?', @p488='?', @p489='?', @p490='?' (DbType = Int32), @p491='?', @p492='?', @p493='?', @p494='?', @p495='?' (DbType = Int32), @p496='?', @p497='?', @p498='?', @p499='?', @p500='?' (DbType = Int32), @p501='?', @p502='?', @p503='?', @p504='?', @p505='?' (DbType = Int32), @p506='?', @p507='?', @p508='?', @p509='?', @p510='?' (DbType = Int32), @p511='?', @p512='?', @p513='?', @p514='?', @p515='?' (DbType = Int32), @p516='?', @p517='?', @p518='?', @p519='?', @p520='?' (DbType = Int32), @p521='?', @p522='?', @p523='?', @p524='?', @p525='?' (DbType = Int32), @p526='?', @p527='?', @p528='?', @p529='?', @p530='?' (DbType = Int32), @p531='?', @p532='?', @p533='?', @p534='?', @p535='?' (DbType = Int32), @p536='?', @p537='?', @p538='?', @p539='?', @p540='?' (DbType = Int32), @p541='?', @p542='?', @p543='?', @p544='?', @p545='?' (DbType = Int32), @p546='?', @p547='?', @p548='?', @p549='?', @p550='?' (DbType = Int32), @p551='?', @p552='?', @p553='?', @p554='?', @p555='?' (DbType = Int32), @p556='?', @p557='?', @p558='?', @p559='?', @p560='?' (DbType = Int32), @p561='?', @p562='?', @p563='?', @p564='?', @p565='?' (DbType = Int32), @p566='?', @p567='?', @p568='?', @p569='?', @p570='?' (DbType = Int32), @p571='?', @p572='?', @p573='?', @p574='?', @p575='?' (DbType = Int32), @p576='?', @p577='?', @p578='?', @p579='?', @p580='?' (DbType = Int32), @p581='?', @p582='?', @p583='?', @p584='?', @p585='?' (DbType = Int32), @p586='?', @p587='?', @p588='?', @p589='?', @p590='?' (DbType = Int32), @p591='?', @p592='?', @p593='?', @p594='?', @p595='?' (DbType = Int32), @p596='?', @p597='?', @p598='?', @p599='?', @p600='?' (DbType = Int32), @p601='?', @p602='?', @p603='?', @p604='?', @p605='?' (DbType = Int32), @p606='?', @p607='?', @p608='?', @p609='?', @p610='?' (DbType = Int32), @p611='?', @p612='?', @p613='?', @p614='?', @p615='?' (DbType = Int32), @p616='?', @p617='?', @p618='?', @p619='?', @p620='?' (DbType = Int32), @p621='?', @p622='?', @p623='?', @p624='?', @p625='?' (DbType = Int32), @p626='?', @p627='?', @p628='?', @p629='?', @p630='?' (DbType = Int32), @p631='?', @p632='?', @p633='?', @p634='?', @p635='?' (DbType = Int32), @p636='?', @p637='?', @p638='?', @p639='?', @p640='?' (DbType = Int32), @p641='?', @p642='?', @p643='?', @p644='?', @p645='?' (DbType = Int32), @p646='?', @p647='?', @p648='?', @p649='?', @p650='?' (DbType = Int32), @p651='?', @p652='?', @p653='?', @p654='?', @p655='?' (DbType = Int32), @p656='?', @p657='?', @p658='?', @p659='?', @p660='?' (DbType = Int32), @p661='?', @p662='?', @p663='?', @p664='?', @p665='?' (DbType = Int32), @p666='?', @p667='?', @p668='?', @p669='?', @p670='?' (DbType = Int32), @p671='?', @p672='?', @p673='?', @p674='?', @p675='?' (DbType = Int32), @p676='?', @p677='?', @p678='?', @p679='?', @p680='?' (DbType = Int32), @p681='?', @p682='?', @p683='?', @p684='?', @p685='?' (DbType = Int32), @p686='?', @p687='?', @p688='?', @p689='?', @p690='?' (DbType = Int32), @p691='?', @p692='?', @p693='?', @p694='?', @p695='?' (DbType = Int32), @p696='?', @p697='?', @p698='?', @p699='?', @p700='?' (DbType = Int32), @p701='?', @p702='?', @p703='?', @p704='?', @p705='?' (DbType = Int32), @p706='?', @p707='?', @p708='?', @p709='?', @p710='?' (DbType = Int32), @p711='?', @p712='?', @p713='?', @p714='?', @p715='?' (DbType = Int32), @p716='?', @p717='?', @p718='?', @p719='?', @p720='?' (DbType = Int32), @p721='?', @p722='?', @p723='?', @p724='?', @p725='?' (DbType = Int32), @p726='?', @p727='?', @p728='?', @p729='?', @p730='?' (DbType = Int32), @p731='?', @p732='?', @p733='?', @p734='?', @p735='?' (DbType = Int32), @p736='?', @p737='?', @p738='?', @p739='?', @p740='?' (DbType = Int32), @p741='?', @p742='?', @p743='?', @p744='?', @p745='?' (DbType = Int32), @p746='?', @p747='?', @p748='?', @p749='?', @p750='?' (DbType = Int32), @p751='?', @p752='?', @p753='?', @p754='?', @p755='?' (DbType = Int32), @p756='?', @p757='?', @p758='?', @p759='?', @p760='?' (DbType = Int32), @p761='?', @p762='?', @p763='?', @p764='?', @p765='?' (DbType = Int32), @p766='?', @p767='?', @p768='?', @p769='?', @p770='?' (DbType = Int32), @p771='?', @p772='?', @p773='?', @p774='?', @p775='?' (DbType = Int32), @p776='?', @p777='?', @p778='?', @p779='?', @p780='?' (DbType = Int32), @p781='?', @p782='?', @p783='?', @p784='?', @p785='?' (DbType = Int32), @p786='?', @p787='?', @p788='?', @p789='?', @p790='?' (DbType = Int32), @p791='?', @p792='?', @p793='?', @p794='?', @p795='?' (DbType = Int32), @p796='?', @p797='?', @p798='?', @p799='?', @p800='?' (DbType = Int32), @p801='?', @p802='?', @p803='?', @p804='?', @p805='?' (DbType = Int32), @p806='?', @p807='?', @p808='?', @p809='?', @p810='?' (DbType = Int32), @p811='?', @p812='?', @p813='?', @p814='?', @p815='?' (DbType = Int32), @p816='?', @p817='?', @p818='?', @p819='?', @p820='?' (DbType = Int32), @p821='?', @p822='?', @p823='?', @p824='?', @p825='?' (DbType = Int32), @p826='?', @p827='?', @p828='?', @p829='?', @p830='?' (DbType = Int32), @p831='?', @p832='?', @p833='?', @p834='?', @p835='?' (DbType = Int32), @p836='?', @p837='?', @p838='?', @p839='?', @p840='?' (DbType = Int32), @p841='?', @p842='?', @p843='?', @p844='?', @p845='?' (DbType = Int32), @p846='?', @p847='?', @p848='?', @p849='?', @p850='?' (DbType = Int32), @p851='?', @p852='?', @p853='?', @p854='?', @p855='?' (DbType = Int32), @p856='?', @p857='?', @p858='?', @p859='?', @p860='?' (DbType = Int32), @p861='?', @p862='?', @p863='?', @p864='?', @p865='?' (DbType = Int32), @p866='?', @p867='?', @p868='?', @p869='?', @p870='?' (DbType = Int32), @p871='?', @p872='?', @p873='?', @p874='?', @p875='?' (DbType = Int32), @p876='?', @p877='?', @p878='?', @p879='?', @p880='?' (DbType = Int32), @p881='?', @p882='?', @p883='?', @p884='?', @p885='?' (DbType = Int32), @p886='?', @p887='?', @p888='?', @p889='?', @p890='?' (DbType = Int32), @p891='?', @p892='?', @p893='?', @p894='?', @p895='?' (DbType = Int32), @p896='?', @p897='?', @p898='?', @p899='?', @p900='?' (DbType = Int32), @p901='?', @p902='?', @p903='?', @p904='?', @p905='?' (DbType = Int32), @p906='?', @p907='?', @p908='?', @p909='?', @p910='?' (DbType = Int32), @p911='?', @p912='?', @p913='?', @p914='?', @p915='?' (DbType = Int32), @p916='?', @p917='?', @p918='?', @p919='?', @p920='?' (DbType = Int32), @p921='?', @p922='?', @p923='?', @p924='?', @p925='?' (DbType = Int32), @p926='?', @p927='?', @p928='?', @p929='?', @p930='?' (DbType = Int32), @p931='?', @p932='?', @p933='?', @p934='?', @p935='?' (DbType = Int32), @p936='?', @p937='?', @p938='?', @p939='?', @p940='?' (DbType = Int32), @p941='?', @p942='?', @p943='?', @p944='?', @p945='?' (DbType = Int32), @p946='?', @p947='?', @p948='?', @p949='?', @p950='?' (DbType = Int32), @p951='?', @p952='?', @p953='?', @p954='?', @p955='?' (DbType = Int32), @p956='?', @p957='?', @p958='?', @p959='?', @p960='?' (DbType = Int32), @p961='?', @p962='?', @p963='?', @p964='?', @p965='?' (DbType = Int32), @p966='?', @p967='?', @p968='?', @p969='?', @p970='?' (DbType = Int32), @p971='?', @p972='?', @p973='?', @p974='?', @p975='?' (DbType = Int32), @p976='?', @p977='?', @p978='?', @p979='?', @p980='?' (DbType = Int32), @p981='?', @p982='?', @p983='?', @p984='?', @p985='?' (DbType = Int32), @p986='?', @p987='?', @p988='?', @p989='?', @p990='?' (DbType = Int32), @p991='?', @p992='?', @p993='?', @p994='?', @p995='?' (DbType = Int32), @p996='?', @p997='?', @p998='?', @p999='?', @p1000='?' (DbType = Int32), @p1001='?', @p1002='?', @p1003='?', @p1004='?', @p1005='?' (DbType = Int32), @p1006='?', @p1007='?', @p1008='?', @p1009='?', @p1010='?' (DbType = Int32), @p1011='?', @p1012='?', @p1013='?', @p1014='?', @p1015='?' (DbType = Int32), @p1016='?', @p1017='?', @p1018='?', @p1019='?', @p1020='?' (DbType = Int32), @p1021='?', @p1022='?', @p1023='?', @p1024='?', @p1025='?' (DbType = Int32), @p1026='?', @p1027='?', @p1028='?', @p1029='?', @p1030='?' (DbType = Int32), @p1031='?', @p1032='?', @p1033='?', @p1034='?', @p1035='?' (DbType = Int32), @p1036='?', @p1037='?', @p1038='?', @p1039='?', @p1040='?' (DbType = Int32), @p1041='?', @p1042='?', @p1043='?', @p1044='?', @p1045='?' (DbType = Int32), @p1046='?', @p1047='?', @p1048='?', @p1049='?', @p1050='?' (DbType = Int32), @p1051='?', @p1052='?', @p1053='?', @p1054='?', @p1055='?' (DbType = Int32), @p1056='?', @p1057='?', @p1058='?', @p1059='?', @p1060='?' (DbType = Int32), @p1061='?', @p1062='?', @p1063='?', @p1064='?', @p1065='?' (DbType = Int32), @p1066='?', @p1067='?', @p1068='?', @p1069='?', @p1070='?' (DbType = Int32), @p1071='?', @p1072='?', @p1073='?', @p1074='?', @p1075='?' (DbType = Int32), @p1076='?', @p1077='?', @p1078='?', @p1079='?', @p1080='?' (DbType = Int32), @p1081='?', @p1082='?', @p1083='?', @p1084='?', @p1085='?' (DbType = Int32), @p1086='?', @p1087='?', @p1088='?', @p1089='?', @p1090='?' (DbType = Int32), @p1091='?', @p1092='?', @p1093='?', @p1094='?', @p1095='?' (DbType = Int32), @p1096='?', @p1097='?', @p1098='?', @p1099='?', @p1100='?' (DbType = Int32), @p1101='?', @p1102='?', @p1103='?', @p1104='?', @p1105='?' (DbType = Int32), @p1106='?', @p1107='?', @p1108='?', @p1109='?', @p1110='?' (DbType = Int32), @p1111='?', @p1112='?', @p1113='?', @p1114='?', @p1115='?' (DbType = Int32), @p1116='?', @p1117='?', @p1118='?', @p1119='?', @p1120='?' (DbType = Int32), @p1121='?', @p1122='?', @p1123='?', @p1124='?', @p1125='?' (DbType = Int32), @p1126='?', @p1127='?', @p1128='?', @p1129='?', @p1130='?' (DbType = Int32), @p1131='?', @p1132='?', @p1133='?', @p1134='?', @p1135='?' (DbType = Int32), @p1136='?', @p1137='?', @p1138='?', @p1139='?', @p1140='?' (DbType = Int32), @p1141='?', @p1142='?', @p1143='?', @p1144='?', @p1145='?' (DbType = Int32), @p1146='?', @p1147='?', @p1148='?', @p1149='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p5, @p6, @p7, @p8, @p9);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p10, @p11, @p12, @p13, @p14);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p15, @p16, @p17, @p18, @p19);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p20, @p21, @p22, @p23, @p24);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p25, @p26, @p27, @p28, @p29);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p30, @p31, @p32, @p33, @p34);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p35, @p36, @p37, @p38, @p39);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p40, @p41, @p42, @p43, @p44);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p45, @p46, @p47, @p48, @p49);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p50, @p51, @p52, @p53, @p54);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p55, @p56, @p57, @p58, @p59);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p60, @p61, @p62, @p63, @p64);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p65, @p66, @p67, @p68, @p69);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p70, @p71, @p72, @p73, @p74);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p75, @p76, @p77, @p78, @p79);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p80, @p81, @p82, @p83, @p84);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p85, @p86, @p87, @p88, @p89);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p90, @p91, @p92, @p93, @p94);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p95, @p96, @p97, @p98, @p99);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p100, @p101, @p102, @p103, @p104);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p105, @p106, @p107, @p108, @p109);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p110, @p111, @p112, @p113, @p114);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p115, @p116, @p117, @p118, @p119);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p120, @p121, @p122, @p123, @p124);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p125, @p126, @p127, @p128, @p129);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p130, @p131, @p132, @p133, @p134);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p135, @p136, @p137, @p138, @p139);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p140, @p141, @p142, @p143, @p144);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p145, @p146, @p147, @p148, @p149);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p150, @p151, @p152, @p153, @p154);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p155, @p156, @p157, @p158, @p159);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p160, @p161, @p162, @p163, @p164);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p165, @p166, @p167, @p168, @p169);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p170, @p171, @p172, @p173, @p174);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p175, @p176, @p177, @p178, @p179);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p180, @p181, @p182, @p183, @p184);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p185, @p186, @p187, @p188, @p189);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p190, @p191, @p192, @p193, @p194);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p195, @p196, @p197, @p198, @p199);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p200, @p201, @p202, @p203, @p204);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p205, @p206, @p207, @p208, @p209);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p210, @p211, @p212, @p213, @p214);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p215, @p216, @p217, @p218, @p219);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p220, @p221, @p222, @p223, @p224);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p225, @p226, @p227, @p228, @p229);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p230, @p231, @p232, @p233, @p234);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p235, @p236, @p237, @p238, @p239);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p240, @p241, @p242, @p243, @p244);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p245, @p246, @p247, @p248, @p249);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p250, @p251, @p252, @p253, @p254);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p255, @p256, @p257, @p258, @p259);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p260, @p261, @p262, @p263, @p264);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p265, @p266, @p267, @p268, @p269);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p270, @p271, @p272, @p273, @p274);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p275, @p276, @p277, @p278, @p279);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p280, @p281, @p282, @p283, @p284);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p285, @p286, @p287, @p288, @p289);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p290, @p291, @p292, @p293, @p294);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p295, @p296, @p297, @p298, @p299);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p300, @p301, @p302, @p303, @p304);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p305, @p306, @p307, @p308, @p309);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p310, @p311, @p312, @p313, @p314);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p315, @p316, @p317, @p318, @p319);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p320, @p321, @p322, @p323, @p324);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p325, @p326, @p327, @p328, @p329);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p330, @p331, @p332, @p333, @p334);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p335, @p336, @p337, @p338, @p339);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p340, @p341, @p342, @p343, @p344);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p345, @p346, @p347, @p348, @p349);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p350, @p351, @p352, @p353, @p354);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p355, @p356, @p357, @p358, @p359);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p360, @p361, @p362, @p363, @p364);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p365, @p366, @p367, @p368, @p369);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p370, @p371, @p372, @p373, @p374);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p375, @p376, @p377, @p378, @p379);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p380, @p381, @p382, @p383, @p384);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p385, @p386, @p387, @p388, @p389);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p390, @p391, @p392, @p393, @p394);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p395, @p396, @p397, @p398, @p399);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p400, @p401, @p402, @p403, @p404);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p405, @p406, @p407, @p408, @p409);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p410, @p411, @p412, @p413, @p414);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p415, @p416, @p417, @p418, @p419);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p420, @p421, @p422, @p423, @p424);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p425, @p426, @p427, @p428, @p429);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p430, @p431, @p432, @p433, @p434);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p435, @p436, @p437, @p438, @p439);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p440, @p441, @p442, @p443, @p444);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p445, @p446, @p447, @p448, @p449);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p450, @p451, @p452, @p453, @p454);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p455, @p456, @p457, @p458, @p459);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p460, @p461, @p462, @p463, @p464);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p465, @p466, @p467, @p468, @p469);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p470, @p471, @p472, @p473, @p474);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p475, @p476, @p477, @p478, @p479);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p480, @p481, @p482, @p483, @p484);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p485, @p486, @p487, @p488, @p489);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p490, @p491, @p492, @p493, @p494);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p495, @p496, @p497, @p498, @p499);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p500, @p501, @p502, @p503, @p504);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p505, @p506, @p507, @p508, @p509);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p510, @p511, @p512, @p513, @p514);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p515, @p516, @p517, @p518, @p519);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p520, @p521, @p522, @p523, @p524);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p525, @p526, @p527, @p528, @p529);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p530, @p531, @p532, @p533, @p534);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p535, @p536, @p537, @p538, @p539);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p540, @p541, @p542, @p543, @p544);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p545, @p546, @p547, @p548, @p549);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p550, @p551, @p552, @p553, @p554);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p555, @p556, @p557, @p558, @p559);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p560, @p561, @p562, @p563, @p564);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p565, @p566, @p567, @p568, @p569);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p570, @p571, @p572, @p573, @p574);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p575, @p576, @p577, @p578, @p579);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p580, @p581, @p582, @p583, @p584);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p585, @p586, @p587, @p588, @p589);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p590, @p591, @p592, @p593, @p594);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p595, @p596, @p597, @p598, @p599);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p600, @p601, @p602, @p603, @p604);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p605, @p606, @p607, @p608, @p609);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p610, @p611, @p612, @p613, @p614);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p615, @p616, @p617, @p618, @p619);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p620, @p621, @p622, @p623, @p624);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p625, @p626, @p627, @p628, @p629);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p630, @p631, @p632, @p633, @p634);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p635, @p636, @p637, @p638, @p639);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p640, @p641, @p642, @p643, @p644);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p645, @p646, @p647, @p648, @p649);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p650, @p651, @p652, @p653, @p654);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p655, @p656, @p657, @p658, @p659);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p660, @p661, @p662, @p663, @p664);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p665, @p666, @p667, @p668, @p669);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p670, @p671, @p672, @p673, @p674);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p675, @p676, @p677, @p678, @p679);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p680, @p681, @p682, @p683, @p684);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p685, @p686, @p687, @p688, @p689);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p690, @p691, @p692, @p693, @p694);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p695, @p696, @p697, @p698, @p699);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p700, @p701, @p702, @p703, @p704);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p705, @p706, @p707, @p708, @p709);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p710, @p711, @p712, @p713, @p714);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p715, @p716, @p717, @p718, @p719);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p720, @p721, @p722, @p723, @p724);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p725, @p726, @p727, @p728, @p729);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p730, @p731, @p732, @p733, @p734);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p735, @p736, @p737, @p738, @p739);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p740, @p741, @p742, @p743, @p744);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p745, @p746, @p747, @p748, @p749);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p750, @p751, @p752, @p753, @p754);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p755, @p756, @p757, @p758, @p759);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p760, @p761, @p762, @p763, @p764);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p765, @p766, @p767, @p768, @p769);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p770, @p771, @p772, @p773, @p774);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p775, @p776, @p777, @p778, @p779);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p780, @p781, @p782, @p783, @p784);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p785, @p786, @p787, @p788, @p789);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p790, @p791, @p792, @p793, @p794);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p795, @p796, @p797, @p798, @p799);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p800, @p801, @p802, @p803, @p804);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p805, @p806, @p807, @p808, @p809);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p810, @p811, @p812, @p813, @p814);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p815, @p816, @p817, @p818, @p819);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p820, @p821, @p822, @p823, @p824);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p825, @p826, @p827, @p828, @p829);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p830, @p831, @p832, @p833, @p834);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p835, @p836, @p837, @p838, @p839);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p840, @p841, @p842, @p843, @p844);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p845, @p846, @p847, @p848, @p849);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p850, @p851, @p852, @p853, @p854);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p855, @p856, @p857, @p858, @p859);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p860, @p861, @p862, @p863, @p864);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p865, @p866, @p867, @p868, @p869);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p870, @p871, @p872, @p873, @p874);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p875, @p876, @p877, @p878, @p879);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p880, @p881, @p882, @p883, @p884);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p885, @p886, @p887, @p888, @p889);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p890, @p891, @p892, @p893, @p894);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p895, @p896, @p897, @p898, @p899);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p900, @p901, @p902, @p903, @p904);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p905, @p906, @p907, @p908, @p909);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p910, @p911, @p912, @p913, @p914);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p915, @p916, @p917, @p918, @p919);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p920, @p921, @p922, @p923, @p924);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p925, @p926, @p927, @p928, @p929);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p930, @p931, @p932, @p933, @p934);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p935, @p936, @p937, @p938, @p939);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p940, @p941, @p942, @p943, @p944);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p945, @p946, @p947, @p948, @p949);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p950, @p951, @p952, @p953, @p954);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p955, @p956, @p957, @p958, @p959);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p960, @p961, @p962, @p963, @p964);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p965, @p966, @p967, @p968, @p969);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p970, @p971, @p972, @p973, @p974);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p975, @p976, @p977, @p978, @p979);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p980, @p981, @p982, @p983, @p984);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p985, @p986, @p987, @p988, @p989);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p990, @p991, @p992, @p993, @p994);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p995, @p996, @p997, @p998, @p999);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1000, @p1001, @p1002, @p1003, @p1004);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1005, @p1006, @p1007, @p1008, @p1009);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1010, @p1011, @p1012, @p1013, @p1014);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1015, @p1016, @p1017, @p1018, @p1019);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1020, @p1021, @p1022, @p1023, @p1024);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1025, @p1026, @p1027, @p1028, @p1029);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1030, @p1031, @p1032, @p1033, @p1034);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1035, @p1036, @p1037, @p1038, @p1039);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1040, @p1041, @p1042, @p1043, @p1044);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1045, @p1046, @p1047, @p1048, @p1049);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1050, @p1051, @p1052, @p1053, @p1054);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1055, @p1056, @p1057, @p1058, @p1059);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1060, @p1061, @p1062, @p1063, @p1064);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1065, @p1066, @p1067, @p1068, @p1069);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1070, @p1071, @p1072, @p1073, @p1074);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1075, @p1076, @p1077, @p1078, @p1079);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1080, @p1081, @p1082, @p1083, @p1084);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1085, @p1086, @p1087, @p1088, @p1089);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1090, @p1091, @p1092, @p1093, @p1094);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1095, @p1096, @p1097, @p1098, @p1099);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1100, @p1101, @p1102, @p1103, @p1104);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1105, @p1106, @p1107, @p1108, @p1109);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1110, @p1111, @p1112, @p1113, @p1114);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1115, @p1116, @p1117, @p1118, @p1119);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1120, @p1121, @p1122, @p1123, @p1124);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1125, @p1126, @p1127, @p1128, @p1129);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1130, @p1131, @p1132, @p1133, @p1134);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1135, @p1136, @p1137, @p1138, @p1139);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1140, @p1141, @p1142, @p1143, @p1144);
+INSERT INTO "PostgraduatePrograms" ("Id", "DegreeType", "Field", "ProgramName", "StudyMode")
+VALUES (@p1145, @p1146, @p1147, @p1148, @p1149);
+2026-01-07 10:00:27.347 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 10:00:27.568 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-07 10:00:27.574 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-07 10:00:27.577 +01:00 [INF] Hosting environment: Development
+2026-01-07 10:00:27.581 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-07 10:05:02.807 +01:00 [INF] Application is shutting down...
+2026-01-07 10:07:01.028 +01:00 [INF] Executed DbCommand (290ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:01.380 +01:00 [INF] Executed DbCommand (238ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:01.623 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:01.861 +01:00 [INF] Executed DbCommand (228ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:02.110 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:02.348 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:02.589 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:02.857 +01:00 [INF] Executed DbCommand (258ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:03.104 +01:00 [INF] Executed DbCommand (238ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:03.353 +01:00 [INF] Executed DbCommand (239ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:03.597 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:03.835 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:04.079 +01:00 [INF] Executed DbCommand (234ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:04.318 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:04.557 +01:00 [INF] Executed DbCommand (230ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:04.806 +01:00 [INF] Executed DbCommand (240ms) [Parameters=[@__program_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "PostgraduatePrograms" AS p
+    WHERE p."Id" = @__program_Id_0)
+2026-01-07 10:07:35.289 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 10:07:35.548 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-07 10:07:35.555 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-07 10:07:35.559 +01:00 [INF] Hosting environment: Development
+2026-01-07 10:07:35.563 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-07 10:07:38.661 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/ - null null
+2026-01-07 10:07:38.739 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-07 10:07:38.861 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/ - 404 0 null 202.7532ms
+2026-01-07 10:07:38.916 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5043/, Response status code: 404
+2026-01-07 10:07:45.578 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger - null null
+2026-01-07 10:07:45.613 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger - 301 0 null 35.2196ms
+2026-01-07 10:07:45.638 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2026-01-07 10:07:45.772 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 133.0544ms
+2026-01-07 10:07:45.828 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - null null
+2026-01-07 10:07:45.846 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.css - null null
+2026-01-07 10:07:45.850 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2026-01-07 10:07:45.855 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - null null
+2026-01-07 10:07:45.856 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - null null
+2026-01-07 10:07:45.907 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.css - 200 202 text/css 61.5945ms
+2026-01-07 10:07:45.911 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - 200 155175 text/css 83.0516ms
+2026-01-07 10:07:45.922 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 72.5924ms
+2026-01-07 10:07:45.941 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 85.0158ms
+2026-01-07 10:07:45.973 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - 200 1485750 text/javascript 117.6894ms
+2026-01-07 10:07:46.428 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - null null
+2026-01-07 10:07:46.443 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - 200 628 image/png 14.7673ms
+2026-01-07 10:07:46.703 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2026-01-07 10:07:47.273 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 570.0371ms
+2026-01-07 10:09:01.113 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/Register - application/json 141
+2026-01-07 10:09:01.142 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:09:01.148 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:09:01.159 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2026-01-07 10:09:01.208 +01:00 [INF] Route matched with {action = "RegisterUser", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(Application.DTOs.UserForRegistrationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2026-01-07 10:09:05.521 +01:00 [INF] Executed DbCommand (333ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2026-01-07 10:09:05.888 +01:00 [INF] Executed DbCommand (324ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-07 10:09:06.418 +01:00 [INF] Executed DbCommand (249ms) [Parameters=[@p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?', @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?', @p16='?' (DbType = DateTime), @p17='?', @p18='?', @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "CreatedAt", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpiryTime", "Role", "SecurityStamp", "TwoFactorEnabled", "UpdatedAt", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2026-01-07 10:09:06.448 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2026-01-07 10:09:06.456 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.RegisterUser (Presentation) in 5234.2397ms
+2026-01-07 10:09:06.463 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2026-01-07 10:09:06.480 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/Register - 201 0 null 5366.821ms
+2026-01-07 10:09:39.158 +01:00 [INF] Application is shutting down...
+2026-01-07 10:15:21.383 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 10:15:21.612 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-07 10:15:21.619 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-07 10:15:21.623 +01:00 [INF] Hosting environment: Development
+2026-01-07 10:15:21.627 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-07 10:15:39.427 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/ - null null
+2026-01-07 10:15:39.520 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-07 10:15:39.646 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/ - 404 0 null 225.0932ms
+2026-01-07 10:15:39.781 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5043/, Response status code: 404
+2026-01-07 10:15:44.264 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2026-01-07 10:15:44.668 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 404.7382ms
+2026-01-07 10:16:11.909 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2026-01-07 10:16:11.929 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:16:11.936 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:16:11.956 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-07 10:16:12.002 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2026-01-07 10:16:17.081 +01:00 [INF] Executed DbCommand (399ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-07 10:16:17.861 +01:00 [INF] Executed DbCommand (359ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2026-01-07 10:16:18.166 +01:00 [INF] Executed DbCommand (285ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-07 10:16:18.604 +01:00 [INF] Executed DbCommand (297ms) [Parameters=[@p21='?', @p0='?' (DbType = Int32), @p1='?', @p22='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "Role" = @p16, "SecurityStamp" = @p17, "TwoFactorEnabled" = @p18, "UpdatedAt" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22;
+2026-01-07 10:16:18.670 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2026-01-07 10:16:18.693 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 6675.4952ms
+2026-01-07 10:16:18.701 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-07 10:16:18.716 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 6807.2994ms
+2026-01-07 10:26:25.346 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2026-01-07 10:26:25.383 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:26:25.387 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:26:25.402 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-07 10:26:25.441 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2026-01-07 10:26:27.370 +01:00 [INF] Executed DbCommand (235ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-07 10:26:27.810 +01:00 [INF] Executed DbCommand (248ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2026-01-07 10:26:28.059 +01:00 [INF] Executed DbCommand (233ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-07 10:26:28.335 +01:00 [INF] Executed DbCommand (258ms) [Parameters=[@p21='?', @p0='?' (DbType = Int32), @p1='?', @p22='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "Role" = @p16, "SecurityStamp" = @p17, "TwoFactorEnabled" = @p18, "UpdatedAt" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22;
+2026-01-07 10:26:28.346 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2026-01-07 10:26:28.353 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 2866.5927ms
+2026-01-07 10:26:28.360 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-07 10:26:28.367 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 3020.468ms
+2026-01-07 10:29:56.441 +01:00 [INF] Application is shutting down...
+2026-01-07 10:30:13.265 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 10:30:13.561 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-07 10:30:13.568 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-07 10:30:13.572 +01:00 [INF] Hosting environment: Development
+2026-01-07 10:30:13.577 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-07 10:31:52.141 +01:00 [INF] Application is shutting down...
+2026-01-07 10:32:09.833 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 10:32:10.052 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-07 10:32:10.058 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-07 10:32:10.064 +01:00 [INF] Hosting environment: Development
+2026-01-07 10:32:10.067 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-07 10:33:09.563 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2026-01-07 10:33:09.679 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-07 10:33:09.688 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:33:09.692 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:33:09.805 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-07 10:33:09.923 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2026-01-07 10:33:14.558 +01:00 [INF] Executed DbCommand (324ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-07 10:33:15.220 +01:00 [INF] Executed DbCommand (305ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2026-01-07 10:33:15.482 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-07 10:33:15.926 +01:00 [INF] Executed DbCommand (287ms) [Parameters=[@p21='?', @p0='?' (DbType = Int32), @p1='?', @p22='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "Role" = @p16, "SecurityStamp" = @p17, "TwoFactorEnabled" = @p18, "UpdatedAt" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22;
+2026-01-07 10:33:15.999 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2026-01-07 10:33:16.028 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 6086.7726ms
+2026-01-07 10:33:16.040 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-07 10:33:16.067 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 6507.5858ms
+2026-01-07 10:34:24.828 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-07 10:34:24.853 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:34:24.859 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:34:25.015 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-07 10:34:25.028 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:34:25.066 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-07 10:34:25.078 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 42.51ms
+2026-01-07 10:34:25.083 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-07 10:34:25.091 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 263.4048ms
+2026-01-07 10:34:48.125 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-07 10:34:48.194 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:34:48.199 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:34:48.217 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:34:48.236 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:34:48.281 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-07 10:34:48.309 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 54.9169ms
+2026-01-07 10:34:48.318 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:34:48.325 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 200.1462ms
+2026-01-07 10:34:52.370 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-07 10:34:52.388 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:34:52.393 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:34:52.405 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-07 10:34:52.411 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:34:52.435 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-07 10:34:52.493 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 67.2007ms
+2026-01-07 10:34:52.513 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-07 10:34:52.527 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 156.2303ms
+2026-01-07 10:35:00.255 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-07 10:35:00.280 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:35:00.288 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:35:00.296 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:35:00.304 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:35:00.322 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-07 10:35:00.328 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 10.0906ms
+2026-01-07 10:35:00.337 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:35:00.342 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 86.0645ms
+2026-01-07 10:35:07.745 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-07 10:35:07.806 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:35:07.812 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:35:07.825 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:35:07.834 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:35:07.851 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-07 10:35:07.865 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 15.7584ms
+2026-01-07 10:35:07.873 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:35:07.881 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 136.2847ms
+2026-01-07 10:35:11.116 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-07 10:35:11.133 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:35:11.137 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:35:11.163 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:35:11.178 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:35:11.579 +01:00 [INF] Executed DbCommand (252ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2026-01-07 10:35:11.824 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?*
+2026-01-07 10:35:11.830 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?*
+2026-01-07 10:35:29.995 +01:00 [INF] Received HTTP response headers after 18156.5137ms - 200
+2026-01-07 10:35:30.001 +01:00 [INF] End processing HTTP request after 18178.2274ms - 200
+2026-01-07 10:35:30.022 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-07 10:35:30.032 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 18840.8394ms
+2026-01-07 10:35:30.037 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:35:30.042 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 18926.1906ms
+2026-01-07 10:35:54.606 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-07 10:35:54.619 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:35:54.628 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:35:54.634 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-07 10:35:54.642 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:35:54.651 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-07 10:35:54.658 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 7.545ms
+2026-01-07 10:35:54.667 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-07 10:35:54.673 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 65.7264ms
+2026-01-07 10:36:18.086 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 95
+2026-01-07 10:36:18.131 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:36:18.167 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:36:18.184 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:36:18.196 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:36:18.231 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-07 10:36:18.292 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 62.3652ms
+2026-01-07 10:36:18.316 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:36:18.326 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 237.5057ms
+2026-01-07 10:36:19.602 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 95
+2026-01-07 10:36:19.645 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:36:19.650 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:36:19.658 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:36:19.667 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:36:19.686 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-07 10:36:19.693 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 8.761ms
+2026-01-07 10:36:19.710 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:36:19.715 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 112.8541ms
+2026-01-07 10:36:20.478 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 95
+2026-01-07 10:36:20.527 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:36:20.545 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:36:20.566 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:36:20.610 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:36:20.631 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-07 10:36:20.665 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 36.4707ms
+2026-01-07 10:36:20.685 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:36:20.690 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 211.8713ms
+2026-01-07 10:36:21.733 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 95
+2026-01-07 10:36:21.757 +01:00 [INF] CORS policy execution failed.
+2026-01-07 10:36:21.768 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-07 10:36:21.777 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:36:21.810 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-07 10:36:22.209 +01:00 [INF] Executed DbCommand (273ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2026-01-07 10:36:22.446 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?*
+2026-01-07 10:36:22.457 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?*
+2026-01-07 10:36:35.306 +01:00 [INF] Received HTTP response headers after 12842.5681ms - 200
+2026-01-07 10:36:35.311 +01:00 [INF] End processing HTTP request after 12865.3524ms - 200
+2026-01-07 10:36:35.347 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-07 10:36:35.357 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 13493.9193ms
+2026-01-07 10:36:35.364 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-07 10:36:35.368 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 13635.2841ms
+2026-01-07 10:41:14.067 +01:00 [INF] Application is shutting down...
