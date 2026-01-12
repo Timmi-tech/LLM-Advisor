@@ -1,0 +1,764 @@
+2026-01-12 13:53:47.868 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-12 13:53:48.185 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-12 13:53:48.193 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-12 13:53:48.199 +01:00 [INF] Hosting environment: Development
+2026-01-12 13:53:48.205 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-12 13:56:53.470 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/ - null null
+2026-01-12 13:56:53.720 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-12 13:56:53.838 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/ - 404 0 null 374.2032ms
+2026-01-12 13:56:53.917 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5043/, Response status code: 404
+2026-01-12 13:56:53.931 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/ - null null
+2026-01-12 13:56:53.985 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/ - 404 0 null 54.7027ms
+2026-01-12 13:56:54.021 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5043/, Response status code: 404
+2026-01-12 13:57:02.090 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger - null null
+2026-01-12 13:57:02.140 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger - 301 0 null 49.2694ms
+2026-01-12 13:57:02.164 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2026-01-12 13:57:02.343 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 178.6737ms
+2026-01-12 13:57:02.398 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - null null
+2026-01-12 13:57:02.443 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.css - null null
+2026-01-12 13:57:02.449 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - null null
+2026-01-12 13:57:02.454 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - null null
+2026-01-12 13:57:02.485 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - 200 155175 text/css 86.678ms
+2026-01-12 13:57:02.454 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2026-01-12 13:57:02.534 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - 200 1485750 text/javascript 85.1706ms
+2026-01-12 13:57:02.607 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.css - 200 202 text/css 163.9385ms
+2026-01-12 13:57:02.661 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 207.0221ms
+2026-01-12 13:57:02.719 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 265.7114ms
+2026-01-12 13:57:03.341 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2026-01-12 13:57:03.718 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 376.4377ms
+2026-01-12 13:57:33.717 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2026-01-12 13:57:33.737 +01:00 [INF] CORS policy execution failed.
+2026-01-12 13:57:33.745 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 13:57:33.765 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-12 13:57:33.852 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2026-01-12 13:57:40.366 +01:00 [INF] Executed DbCommand (313ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-12 13:57:41.020 +01:00 [INF] Executed DbCommand (328ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2026-01-12 13:57:41.505 +01:00 [INF] Executed DbCommand (464ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-12 13:57:41.931 +01:00 [INF] Executed DbCommand (284ms) [Parameters=[@p21='?', @p0='?' (DbType = Int32), @p1='?', @p22='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "Role" = @p16, "SecurityStamp" = @p17, "TwoFactorEnabled" = @p18, "UpdatedAt" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22;
+2026-01-12 13:57:41.993 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2026-01-12 13:57:42.016 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 8147.5642ms
+2026-01-12 13:57:42.024 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-12 13:57:42.039 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 8322.4892ms
+2026-01-12 13:58:20.083 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-12 13:58:20.121 +01:00 [INF] CORS policy execution failed.
+2026-01-12 13:58:20.125 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 13:58:20.304 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 13:58:20.313 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 13:58:20.355 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-12 13:58:20.366 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 42.8949ms
+2026-01-12 13:58:20.375 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 13:58:20.380 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 296.2606ms
+2026-01-12 13:58:36.452 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 13:58:36.465 +01:00 [INF] CORS policy execution failed.
+2026-01-12 13:58:36.480 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 13:58:36.494 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 13:58:36.508 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 13:58:36.533 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 13:58:36.546 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 27.3921ms
+2026-01-12 13:58:36.552 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 13:58:36.558 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 106.0025ms
+2026-01-12 13:58:38.535 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 13:58:38.544 +01:00 [INF] CORS policy execution failed.
+2026-01-12 13:58:38.575 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 13:58:38.587 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 13:58:38.593 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 13:58:38.608 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 13:58:38.615 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 13.409ms
+2026-01-12 13:58:38.620 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 13:58:38.624 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 89.4547ms
+2026-01-12 13:58:39.497 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 13:58:39.508 +01:00 [INF] CORS policy execution failed.
+2026-01-12 13:58:39.514 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 13:58:39.520 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 13:58:39.525 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 13:58:39.537 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 13:58:39.544 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 8.17ms
+2026-01-12 13:58:39.549 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 13:58:39.554 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 56.6066ms
+2026-01-12 13:58:40.452 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 13:58:40.462 +01:00 [INF] CORS policy execution failed.
+2026-01-12 13:58:40.468 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 13:58:40.477 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 13:58:40.483 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 13:58:40.860 +01:00 [INF] Executed DbCommand (253ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2026-01-12 13:58:41.119 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2026-01-12 13:58:41.128 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2026-01-12 13:58:41.971 +01:00 [INF] Received HTTP response headers after 832.0555ms - 400
+2026-01-12 13:58:41.977 +01:00 [INF] End processing HTTP request after 858.3018ms - 400
+2026-01-12 13:58:41.985 +01:00 [WRN] Gemini API key expired. Please update your API key.
+2026-01-12 13:58:41.996 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 1504.1435ms
+2026-01-12 13:58:42.003 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 13:58:42.013 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Gemini API request failed: {
+  "error": {
+    "code": 400,
+    "message": "API key expired. Please renew the API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key expired. Please renew the API key."
+      }
+    ]
+  }
+}
+
+   at Application.Services.GeminiApiClient.GenerateContentAsync(String prompt) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\GeminiApiClient.cs:line 69
+   at Application.Services.RecommendationService.GetRecommendationsAsync(StudentProfile student) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\RecommendationService.cs:line 20
+   at Application.Services.ConversationService.GetFinalRecommendationAsync(ConversationState state) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\ConversationService.cs:line 45
+   at Api.Controllers.ConversationController.Next(ConversationRequest request) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation\Controllers\ConversationController.cs:line 55
+   at lambda_method265(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-12 13:58:42.181 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 500 null text/plain; charset=utf-8 1728.8853ms
+2026-01-12 14:03:34.007 +01:00 [INF] Application is shutting down...
+2026-01-12 14:03:44.462 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-12 14:03:44.748 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-12 14:03:44.755 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-12 14:03:44.760 +01:00 [INF] Hosting environment: Development
+2026-01-12 14:03:44.770 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-12 14:03:58.651 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-12 14:03:58.745 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-12 14:03:58.751 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:03:58.757 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:03:58.965 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 14:03:58.994 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:03:59.292 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-12 14:03:59.355 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 345.4519ms
+2026-01-12 14:03:59.384 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 14:03:59.396 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 747.0762ms
+2026-01-12 14:04:11.676 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:04:11.695 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:04:11.702 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:04:11.714 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:04:11.739 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:04:11.811 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:04:11.829 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 82.4151ms
+2026-01-12 14:04:11.835 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:04:11.840 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 164.8241ms
+2026-01-12 14:04:14.482 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:04:14.520 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:04:14.528 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:04:14.538 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:04:14.543 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:04:14.563 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:04:14.570 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 17.2463ms
+2026-01-12 14:04:14.577 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:04:14.581 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 99.6327ms
+2026-01-12 14:04:15.596 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:04:15.608 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:04:15.613 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:04:15.627 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:04:15.632 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:04:15.646 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:04:15.653 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 9.2213ms
+2026-01-12 14:04:15.659 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:04:15.665 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 68.5546ms
+2026-01-12 14:04:16.594 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:04:16.606 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:04:16.609 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:04:16.618 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:04:16.625 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:04:21.067 +01:00 [INF] Executed DbCommand (272ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2026-01-12 14:04:21.373 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2026-01-12 14:04:21.380 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2026-01-12 14:04:22.394 +01:00 [INF] Received HTTP response headers after 1000.4318ms - 404
+2026-01-12 14:04:22.415 +01:00 [INF] End processing HTTP request after 1044.2522ms - 404
+2026-01-12 14:04:22.426 +01:00 [ERR] Gemini API error: "NotFound", Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2026-01-12 14:04:22.445 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 5810.18ms
+2026-01-12 14:04:22.461 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:04:22.481 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Gemini API request failed: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+   at Application.Services.GeminiApiClient.GenerateContentAsync(String prompt) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\GeminiApiClient.cs:line 69
+   at Application.Services.RecommendationService.GetRecommendationsAsync(StudentProfile student) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\RecommendationService.cs:line 20
+   at Application.Services.ConversationService.GetFinalRecommendationAsync(ConversationState state) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\ConversationService.cs:line 45
+   at Api.Controllers.ConversationController.Next(ConversationRequest request) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation\Controllers\ConversationController.cs:line 55
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-12 14:04:22.591 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 500 null text/plain; charset=utf-8 5997.1979ms
+2026-01-12 14:06:02.264 +01:00 [INF] Application is shutting down...
+2026-01-12 14:06:19.327 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-12 14:06:19.677 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-12 14:06:19.684 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-12 14:06:19.693 +01:00 [INF] Hosting environment: Development
+2026-01-12 14:06:19.697 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-12 14:06:30.446 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-12 14:06:30.553 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-12 14:06:30.559 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:06:30.563 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:06:30.776 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 14:06:30.802 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:06:31.101 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-12 14:06:31.167 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 349.6165ms
+2026-01-12 14:06:31.201 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 14:06:31.213 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 770.1819ms
+2026-01-12 14:06:47.486 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:06:47.528 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:06:47.532 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:06:47.552 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:06:47.594 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:06:47.690 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:06:47.715 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 109.3105ms
+2026-01-12 14:06:47.721 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:06:47.728 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 242.7352ms
+2026-01-12 14:06:51.325 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:06:51.361 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:06:51.366 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:06:51.380 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:06:51.386 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:06:51.407 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:06:51.414 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 18.8699ms
+2026-01-12 14:06:51.421 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:06:51.426 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 100.8977ms
+2026-01-12 14:06:52.270 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:06:52.288 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:06:52.296 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:06:52.301 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:06:52.307 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:06:52.317 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:06:52.324 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 8.4608ms
+2026-01-12 14:06:52.330 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:06:52.334 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 64.5873ms
+2026-01-12 14:06:53.159 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:06:53.206 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:06:53.211 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:06:53.220 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:06:53.228 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:06:57.096 +01:00 [INF] Executed DbCommand (257ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2026-01-12 14:06:57.337 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?*
+2026-01-12 14:06:57.344 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?*
+2026-01-12 14:06:57.984 +01:00 [INF] Received HTTP response headers after 633.9458ms - 404
+2026-01-12 14:06:57.990 +01:00 [INF] End processing HTTP request after 653.3048ms - 404
+2026-01-12 14:06:57.998 +01:00 [ERR] Gemini API error: "NotFound", Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2026-01-12 14:06:58.008 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 4768.7495ms
+2026-01-12 14:06:58.015 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:06:58.022 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Gemini API request failed: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+   at Application.Services.GeminiApiClient.GenerateContentAsync(String prompt) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\GeminiApiClient.cs:line 69
+   at Application.Services.RecommendationService.GetRecommendationsAsync(StudentProfile student) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\RecommendationService.cs:line 20
+   at Application.Services.ConversationService.GetFinalRecommendationAsync(ConversationState state) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\ConversationService.cs:line 45
+   at Api.Controllers.ConversationController.Next(ConversationRequest request) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation\Controllers\ConversationController.cs:line 55
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-12 14:06:58.099 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 500 null text/plain; charset=utf-8 4939.0699ms
+2026-01-12 14:09:34.911 +01:00 [INF] Application is shutting down...
+2026-01-12 14:09:49.244 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-12 14:09:49.568 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-12 14:09:49.576 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-12 14:09:49.581 +01:00 [INF] Hosting environment: Development
+2026-01-12 14:09:49.585 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-12 14:09:58.429 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-12 14:09:58.546 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-12 14:09:58.552 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:09:58.558 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:09:58.806 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 14:09:58.835 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:09:59.142 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-12 14:09:59.208 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 353.961ms
+2026-01-12 14:09:59.251 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 14:09:59.270 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 843.9412ms
+2026-01-12 14:10:15.420 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:10:15.437 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:10:15.441 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:10:15.453 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:10:15.482 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:10:15.566 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:10:15.586 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 95.9964ms
+2026-01-12 14:10:15.592 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:10:15.598 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 179.4306ms
+2026-01-12 14:10:18.454 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:10:18.494 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:10:18.501 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:10:18.516 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:10:18.520 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:10:18.539 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:10:18.544 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 15.8265ms
+2026-01-12 14:10:18.550 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:10:18.555 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 101.1303ms
+2026-01-12 14:10:20.211 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:10:20.233 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:10:20.236 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:10:20.242 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:10:20.253 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:10:20.268 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:10:20.273 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 7.2843ms
+2026-01-12 14:10:20.280 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:10:20.284 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 73.1067ms
+2026-01-12 14:10:21.180 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:10:21.191 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:10:21.194 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:10:21.201 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:10:21.207 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:10:27.680 +01:00 [INF] Executed DbCommand (265ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2026-01-12 14:10:27.956 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2026-01-12 14:10:27.962 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2026-01-12 14:10:29.161 +01:00 [INF] Received HTTP response headers after 1191.3207ms - 404
+2026-01-12 14:10:29.167 +01:00 [INF] End processing HTTP request after 1211.5169ms - 404
+2026-01-12 14:10:29.174 +01:00 [ERR] Gemini API error: "NotFound", Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2026-01-12 14:10:29.213 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 7997.7373ms
+2026-01-12 14:10:29.220 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:10:29.227 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Gemini API request failed: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+   at Application.Services.GeminiApiClient.GenerateContentAsync(String prompt) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\GeminiApiClient.cs:line 69
+   at Application.Services.RecommendationService.GetRecommendationsAsync(StudentProfile student) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\RecommendationService.cs:line 20
+   at Application.Services.ConversationService.GetFinalRecommendationAsync(ConversationState state) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\ConversationService.cs:line 45
+   at Api.Controllers.ConversationController.Next(ConversationRequest request) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation\Controllers\ConversationController.cs:line 55
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-12 14:10:29.310 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 500 null text/plain; charset=utf-8 8129.9297ms
+2026-01-12 14:12:34.026 +01:00 [INF] Application is shutting down...
+2026-01-12 14:12:45.080 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-12 14:12:45.320 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-12 14:12:45.329 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-12 14:12:45.333 +01:00 [INF] Hosting environment: Development
+2026-01-12 14:12:45.336 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-12 14:12:53.923 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-12 14:12:54.013 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-12 14:12:54.019 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:12:54.023 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:12:54.193 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 14:12:54.216 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:12:54.445 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-12 14:12:54.496 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 263.4462ms
+2026-01-12 14:12:54.669 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 14:12:54.685 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 764.5434ms
+2026-01-12 14:13:08.000 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:13:08.060 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:13:08.064 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:13:08.080 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:13:08.107 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:13:08.182 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:13:08.206 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 89.934ms
+2026-01-12 14:13:08.215 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:13:08.222 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 222.6392ms
+2026-01-12 14:13:10.345 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:13:10.384 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:13:10.389 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:13:10.404 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:13:10.410 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:13:10.427 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:13:10.433 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 15.8494ms
+2026-01-12 14:13:10.438 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:13:10.443 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 98.3184ms
+2026-01-12 14:13:10.628 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:13:10.642 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:13:10.647 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:13:10.653 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:13:10.661 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:13:10.673 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 14:13:10.679 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 8.1701ms
+2026-01-12 14:13:10.688 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:13:10.693 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 64.8142ms
+2026-01-12 14:13:10.956 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 14:13:10.966 +01:00 [INF] CORS policy execution failed.
+2026-01-12 14:13:10.977 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 14:13:10.987 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:13:10.994 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 14:13:14.652 +01:00 [INF] Executed DbCommand (262ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2026-01-12 14:13:14.899 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2026-01-12 14:13:14.905 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?*
+2026-01-12 14:13:15.459 +01:00 [INF] Received HTTP response headers after 545.01ms - 404
+2026-01-12 14:13:15.467 +01:00 [INF] End processing HTTP request after 569.0955ms - 404
+2026-01-12 14:13:15.500 +01:00 [ERR] Gemini API error: "NotFound", Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2026-01-12 14:13:15.552 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 4544.655ms
+2026-01-12 14:13:15.567 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 14:13:15.586 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Gemini API request failed: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+   at Application.Services.GeminiApiClient.GenerateContentAsync(String prompt) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\GeminiApiClient.cs:line 68
+   at Application.Services.RecommendationService.GetRecommendationsAsync(StudentProfile student) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\RecommendationService.cs:line 20
+   at Application.Services.ConversationService.GetFinalRecommendationAsync(ConversationState state) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\ConversationService.cs:line 45
+   at Api.Controllers.ConversationController.Next(ConversationRequest request) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation\Controllers\ConversationController.cs:line 55
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-12 14:13:15.700 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 500 null text/plain; charset=utf-8 4744.3672ms
+2026-01-12 14:13:44.246 +01:00 [INF] Application is shutting down...
+2026-01-12 15:47:05.584 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-12 15:47:06.052 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-12 15:47:06.059 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-12 15:47:06.064 +01:00 [INF] Hosting environment: Development
+2026-01-12 15:47:06.067 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-12 15:47:23.106 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/login - application/json 58
+2026-01-12 15:47:23.217 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-12 15:47:23.222 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:47:23.227 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:47:23.424 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/12/2026 1:12:40 PM', Current time (UTC): '1/12/2026 2:47:23 PM'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-12 15:47:23.451 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/12/2026 1:12:40 PM', Current time (UTC): '1/12/2026 2:47:23 PM'.
+2026-01-12 15:47:23.467 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-12 15:47:23.512 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(Application.DTOs.UserForAuthenticationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2026-01-12 15:47:28.771 +01:00 [INF] Executed DbCommand (402ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-12 15:47:29.528 +01:00 [INF] Executed DbCommand (248ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2026-01-12 15:47:29.793 +01:00 [INF] Executed DbCommand (236ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-01-12 15:47:30.295 +01:00 [INF] Executed DbCommand (248ms) [Parameters=[@p21='?', @p0='?' (DbType = Int32), @p1='?', @p22='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?' (DbType = DateTime), @p16='?', @p17='?', @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "CreatedAt" = @p2, "Email" = @p3, "EmailConfirmed" = @p4, "FirstName" = @p5, "LastName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "RefreshToken" = @p14, "RefreshTokenExpiryTime" = @p15, "Role" = @p16, "SecurityStamp" = @p17, "TwoFactorEnabled" = @p18, "UpdatedAt" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22;
+2026-01-12 15:47:30.367 +01:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TokenDto'.
+2026-01-12 15:47:30.421 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.Authenticate (Presentation) in 6881.6443ms
+2026-01-12 15:47:30.451 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.Authenticate (Presentation)'
+2026-01-12 15:47:30.864 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/login - 200 null application/json; charset=utf-8 7760.737ms
+2026-01-12 15:47:47.931 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-12 15:47:47.979 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:47:47.994 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:47:48.030 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 15:47:48.042 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:47:48.070 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-12 15:47:48.079 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 28.5983ms
+2026-01-12 15:47:48.087 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 15:47:48.093 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 161.8758ms
+2026-01-12 15:48:02.278 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 15:48:02.300 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:48:02.363 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:48:02.388 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:48:02.404 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:48:02.433 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 15:48:02.466 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 52.2126ms
+2026-01-12 15:48:02.472 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:48:02.484 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 206.4703ms
+2026-01-12 15:48:04.705 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 15:48:04.931 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:48:04.942 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:48:04.953 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:48:04.992 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:48:05.027 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 15:48:05.041 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 34.7749ms
+2026-01-12 15:48:05.053 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:48:05.064 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 359.1258ms
+2026-01-12 15:48:05.870 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 15:48:05.887 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:48:05.910 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:48:05.940 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:48:05.951 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:48:05.969 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 15:48:05.979 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 13.0505ms
+2026-01-12 15:48:05.988 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:48:05.993 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 123.4437ms
+2026-01-12 15:48:06.758 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 15:48:06.815 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:48:06.821 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:48:06.836 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:48:06.915 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:48:07.340 +01:00 [INF] Executed DbCommand (254ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2026-01-12 15:48:07.610 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?*
+2026-01-12 15:48:07.618 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?*
+2026-01-12 15:48:08.485 +01:00 [INF] Received HTTP response headers after 848.396ms - 400
+2026-01-12 15:48:08.492 +01:00 [INF] End processing HTTP request after 883.9118ms - 400
+2026-01-12 15:48:08.502 +01:00 [WRN] Gemini API key expired. Please update your API key.
+2026-01-12 15:48:08.512 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 1586.0046ms
+2026-01-12 15:48:08.521 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:48:08.527 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Gemini API request failed: {
+  "error": {
+    "code": 400,
+    "message": "API key expired. Please renew the API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key expired. Please renew the API key."
+      }
+    ]
+  }
+}
+
+   at Application.Services.GeminiApiClient.GenerateContentAsync(String prompt) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\GeminiApiClient.cs:line 68
+   at Application.Services.RecommendationService.GetRecommendationsAsync(StudentProfile student) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\RecommendationService.cs:line 20
+   at Application.Services.ConversationService.GetFinalRecommendationAsync(ConversationState state) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\ConversationService.cs:line 45
+   at Api.Controllers.ConversationController.Next(ConversationRequest request) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation\Controllers\ConversationController.cs:line 55
+   at lambda_method265(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-12 15:48:08.662 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 500 null text/plain; charset=utf-8 1903.5565ms
+2026-01-12 15:48:40.381 +01:00 [INF] Application is shutting down...
+2026-01-12 15:48:49.306 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-12 15:48:49.540 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-12 15:48:49.547 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-12 15:48:49.551 +01:00 [INF] Hosting environment: Development
+2026-01-12 15:48:49.555 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-12 15:48:55.884 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/start - null 0
+2026-01-12 15:48:55.962 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-12 15:48:55.967 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:48:55.973 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:48:56.155 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 15:48:56.175 +01:00 [INF] Route matched with {action = "Start", controller = "Conversation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationStartResponse] Start() on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:48:56.566 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationStartResponse'.
+2026-01-12 15:48:56.615 +01:00 [INF] Executed action Api.Controllers.ConversationController.Start (Presentation) in 421.9513ms
+2026-01-12 15:48:56.647 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Start (Presentation)'
+2026-01-12 15:48:56.656 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/start - 200 null application/json; charset=utf-8 774.9991ms
+2026-01-12 15:49:08.193 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 15:49:08.215 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:49:08.227 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:49:08.243 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:49:08.269 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:49:08.373 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 15:49:08.496 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 218.9822ms
+2026-01-12 15:49:08.518 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:49:08.523 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 331.4344ms
+2026-01-12 15:49:10.846 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 15:49:10.931 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:49:10.935 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:49:10.954 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:49:10.961 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:49:10.991 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 15:49:10.997 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 23.5395ms
+2026-01-12 15:49:11.006 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:49:11.017 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 171.4059ms
+2026-01-12 15:49:11.942 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 15:49:12.026 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:49:12.066 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:49:12.133 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:49:12.186 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:49:12.256 +01:00 [INF] Executing OkObjectResult, writing value of type 'Api.Controllers.ConversationNextResponse'.
+2026-01-12 15:49:12.286 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 33.1389ms
+2026-01-12 15:49:12.304 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:49:12.310 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 200 null application/json; charset=utf-8 368.2924ms
+2026-01-12 15:49:13.223 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/conversation/next - application/json 87
+2026-01-12 15:49:13.233 +01:00 [INF] CORS policy execution failed.
+2026-01-12 15:49:13.288 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-01-12 15:49:13.293 +01:00 [INF] Executing endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:49:13.298 +01:00 [INF] Route matched with {action = "Next", controller = "Conversation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Controllers.ConversationNextResponse]] Next(Api.Controllers.ConversationRequest) on controller Api.Controllers.ConversationController (Presentation).
+2026-01-12 15:49:18.203 +01:00 [INF] Executed DbCommand (264ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."DegreeType", p."Field", p."ProgramName", p."StudyMode"
+FROM "PostgraduatePrograms" AS p
+2026-01-12 15:49:18.591 +01:00 [INF] Start processing HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?*
+2026-01-12 15:49:18.604 +01:00 [INF] Sending HTTP request POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?*
+2026-01-12 15:49:19.704 +01:00 [INF] Received HTTP response headers after 1061.7657ms - 503
+2026-01-12 15:49:19.710 +01:00 [INF] End processing HTTP request after 1119.6702ms - 503
+2026-01-12 15:49:19.717 +01:00 [ERR] Gemini API error: "ServiceUnavailable", Response: {
+  "error": {
+    "code": 503,
+    "message": "The model is overloaded. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+2026-01-12 15:49:19.727 +01:00 [INF] Executed action Api.Controllers.ConversationController.Next (Presentation) in 6416.3728ms
+2026-01-12 15:49:19.735 +01:00 [INF] Executed endpoint 'Api.Controllers.ConversationController.Next (Presentation)'
+2026-01-12 15:49:19.743 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Gemini API request failed: {
+  "error": {
+    "code": 503,
+    "message": "The model is overloaded. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+   at Application.Services.GeminiApiClient.GenerateContentAsync(String prompt) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\GeminiApiClient.cs:line 68
+   at Application.Services.RecommendationService.GetRecommendationsAsync(StudentProfile student) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\RecommendationService.cs:line 20
+   at Application.Services.ConversationService.GetFinalRecommendationAsync(ConversationState state) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\Application\Services\ConversationService.cs:line 45
+   at Api.Controllers.ConversationController.Next(ConversationRequest request) in C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation\Controllers\ConversationController.cs:line 55
+   at lambda_method19(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-12 15:49:19.795 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/conversation/next - 500 null text/plain; charset=utf-8 6571.9684ms
+2026-01-12 15:49:59.156 +01:00 [INF] Application is shutting down...

@@ -63,7 +63,6 @@ namespace Application.Services
             List<Claim> claims = await GetClaims(user);
             JwtSecurityToken tokenOptions = GenerateTokenOptions(signingCredentials, claims);
 
-
             string refreshToken = GenerateRefreshToken();
 
             user.RefreshToken = HashRefreshToken(refreshToken);
