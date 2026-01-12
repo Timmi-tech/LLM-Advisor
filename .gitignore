@@ -25,6 +25,11 @@ Thumbs.db
 # ASP.NET secrets
 secrets.json
 
+# App settings
+appsettings.json
+appsettings.*.json
+appsettings.Development.json
+
 # Docker
 *.pid
 
