@@ -1,0 +1,53 @@
+2026-01-19 11:33:15.544 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-19 11:33:16.076 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-19 11:33:16.085 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-19 11:33:16.091 +01:00 [INF] Hosting environment: Development
+2026-01-19 11:33:16.095 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-19 11:36:58.759 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/ - null null
+2026-01-19 11:36:58.868 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-19 11:36:58.951 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/ - 404 0 null 194.7079ms
+2026-01-19 11:36:59.005 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5043/, Response status code: 404
+2026-01-19 11:37:04.237 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger - null null
+2026-01-19 11:37:04.262 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger - 301 0 null 24.8898ms
+2026-01-19 11:37:04.282 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2026-01-19 11:37:04.408 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 126.7438ms
+2026-01-19 11:37:04.472 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - null null
+2026-01-19 11:37:04.490 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.css - null null
+2026-01-19 11:37:04.492 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - null null
+2026-01-19 11:37:04.494 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - null null
+2026-01-19 11:37:04.495 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.js - null null
+2026-01-19 11:37:04.519 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.js - 200 null application/javascript;charset=utf-8 23.7077ms
+2026-01-19 11:37:04.545 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 50.9963ms
+2026-01-19 11:37:04.545 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui.css - 200 155175 text/css 73.2381ms
+2026-01-19 11:37:04.558 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.css - 200 202 text/css 67.1921ms
+2026-01-19 11:37:04.626 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/swagger-ui-bundle.js - 200 1485750 text/javascript 134.1039ms
+2026-01-19 11:37:05.028 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - null null
+2026-01-19 11:37:05.041 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/favicon-32x32.png - 200 628 image/png 12.7717ms
+2026-01-19 11:37:05.310 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2026-01-19 11:37:05.586 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 276.0011ms
+2026-01-19 11:37:21.311 +01:00 [INF] Application is shutting down...
+2026-01-19 11:37:33.983 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-19 11:37:34.189 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-19 11:37:34.197 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-19 11:37:34.201 +01:00 [INF] Hosting environment: Development
+2026-01-19 11:37:34.205 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-19 11:37:36.891 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2026-01-19 11:37:37.065 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 175.8429ms
+2026-01-19 11:37:37.812 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2026-01-19 11:37:38.094 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 283.3313ms
+2026-01-19 11:38:18.851 +01:00 [INF] Application is shutting down...
+2026-01-19 11:38:34.907 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-19 11:38:35.202 +01:00 [INF] Now listening on: http://localhost:5043
+2026-01-19 11:38:35.210 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-19 11:38:35.219 +01:00 [INF] Hosting environment: Development
+2026-01-19 11:38:35.225 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-01-19 11:38:38.221 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/index.html - null null
+2026-01-19 11:38:38.482 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/index.html - 200 null text/html;charset=utf-8 264.0858ms
+2026-01-19 11:38:38.886 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2026-01-19 11:38:39.222 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 338.0082ms
+2026-01-19 11:44:10.589 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/healthz - null null
+2026-01-19 11:44:10.691 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-01-19 11:44:10.830 +01:00 [INF] Executing endpoint 'Health checks'
+2026-01-19 11:44:10.856 +01:00 [INF] Executed endpoint 'Health checks'
+2026-01-19 11:44:10.861 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/healthz - 200 null text/plain 277.1585ms
+2026-01-19 14:42:10.541 +01:00 [INF] Application is shutting down...

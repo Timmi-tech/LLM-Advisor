@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
@@ -155,19 +156,64 @@ namespace Infrastructure.Extensions
                 });
             });
         }
-         // Add the ConfigureCors method to the ServiceExtensions class.
+        // Add the ConfigureCors method to the ServiceExtensions class.
         public static void ConfigureCors(this IServiceCollection services)
         {
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.WithOrigins("http://localhost:3000","https://academiai.vercel.app" )
+                    builder.WithOrigins("http://localhost:3000", "https://academiai.vercel.app")
                            .AllowAnyMethod()
                            .AllowAnyHeader()
                           .AllowCredentials();
                 });
             });
+        }
+
+        public static void ConfigureHealthChecks(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddHealthChecks()
+                .AddNpgSql(configuration.GetConnectionString("PostgresConnection")!, name: "database")
+                .AddCheck("gemini-api", () =>
+                {
+                    var apiKey = configuration["GeminiSettings:ApiKey"];
+                    return string.IsNullOrEmpty(apiKey) ?
+                        HealthCheckResult.Unhealthy("Gemini API key not configured") :
+                        HealthCheckResult.Healthy("Gemini API configured");
+                }, tags: ["external"])
+                .AddCheck("jwt-config", () =>
+                {
+                    var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET");
+                    var validIssuer = configuration["JwtSettings:validIssuer"];
+                    var validAudience = configuration["JwtSettings:validAudience"];
+
+                    if (string.IsNullOrEmpty(jwtSecret) || string.IsNullOrEmpty(validIssuer) || string.IsNullOrEmpty(validAudience))
+                        return HealthCheckResult.Unhealthy("JWT configuration incomplete");
+
+                    return HealthCheckResult.Healthy("JWT properly configured");
+                }, tags: ["security"])
+                .AddCheck("file-system", () =>
+                {
+                    try
+                    {
+                        var logsPath = Path.Combine(Directory.GetCurrentDirectory(), "logs");
+                        if (!Directory.Exists(logsPath))
+                            Directory.CreateDirectory(logsPath);
+
+                        var testFile = Path.Combine(logsPath, "health-check.tmp");
+                        File.WriteAllText(testFile, "test");
+                        File.Delete(testFile);
+
+                        return HealthCheckResult.Healthy("File system accessible");
+                    }
+                    catch (Exception ex)
+                    {
+                        return HealthCheckResult.Unhealthy($"File system error: {ex.Message}");
+                    }
+                }, tags: ["infrastructure"]);
+
+            // Remove UI configuration for now
         }
 
     }

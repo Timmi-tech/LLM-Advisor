@@ -1,15 +1,12 @@
 using Infrastructure.Extensions;
-using System.Text.Json;
-using Microsoft.Extensions.DependencyInjection;
-using Domain.Entities.Models;
-using Infrastructure.Repository;
-using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.SwaggerUI;
-using Microsoft.AspNetCore.Builder;
 using Presentation.ActionFilters;
 using Domain.Entities.ConfigurationsModels;
 using Application.Services;
 using Application.Services.Contracts;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using System.Text.Json;
+using Domain.Entities.Models;
+using Infrastructure.Repository;
 
 
 
@@ -35,13 +32,13 @@ builder.Services.ConfigureFeedbackRepository();
 builder.Services.ConfigureProgramService();
 builder.Services.ConfigureUserService();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.ConfigureSwagger(); 
+builder.Services.ConfigureSwagger();
 builder.Services.Configure<GeminiSettings>(
-    builder.Configuration.GetSection("GeminiSettings"));
+builder.Configuration.GetSection("GeminiSettings"));
 builder.Services.AddHttpClient<GeminiApiClient>();
 builder.Services.AddScoped<IRecommendationService, RecommendationService>();
 builder.Services.ConfigureCors();
-
+builder.Services.ConfigureHealthChecks(builder.Configuration);
 
 var app = builder.Build();
 
@@ -82,19 +79,58 @@ var app = builder.Build();
 //     }
 // }
 
-
 if (app.Environment.IsProduction())
 {
     app.UseHsts();
 }
 
 // Configure the HTTP request pipeline.
+
 app.UseSwagger();
 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "LLM-Advisor v1"));
 app.UseHttpsRedirection();
 
 app.UseCors("CorsPolicy");
 app.UseAuthentication();
-app.UseAuthorization(); 
+app.UseAuthorization();
 app.MapControllers();
+
+// Health check endpoints
+app.MapHealthChecks("/health", new HealthCheckOptions()
+{
+    Predicate = _ => true,
+    ResponseWriter = async (context, report) =>
+    {
+        context.Response.ContentType = "application/json";
+        var result = System.Text.Json.JsonSerializer.Serialize(new
+        {
+            status = report.Status.ToString(),
+            checks = report.Entries.Select(x => new
+            {
+                name = x.Key,
+                status = x.Value.Status.ToString(),
+                description = x.Value.Description,
+                duration = x.Value.Duration.ToString(), // Convert to string
+                tags = x.Value.Tags
+            }),
+            totalDuration = report.TotalDuration.ToString() // Convert to string
+        });
+        await context.Response.WriteAsync(result);
+    }
+});
+
+// Simple health endpoints for monitoring
+app.MapHealthChecks("/health/ready", new HealthCheckOptions()
+{
+    Predicate = check => check.Tags.Contains("ready")
+});
+app.MapHealthChecks("/health/live", new HealthCheckOptions()
+{
+    Predicate = _ => false
+});
+
+// Remove the UI mapping temporarily
+// app.MapHealthChecksUI(options => options.UIPath = "/health-ui");
+
+
 app.Run();

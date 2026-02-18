@@ -16,6 +16,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
       </PackageReference>
+    <PackageReference Include="AspNetCore.HealthChecks.Npgsql" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>

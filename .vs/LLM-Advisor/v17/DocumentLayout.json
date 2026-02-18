@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\c##\\LLM-Advisor\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|c:\\users\\user\\desktop\\c##\\llm-advisor\\presentation\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5858D898-39DE-4D4C-8722-EC05B223F61F}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\dev\\c##\\llm-advisor\\infrastructure\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5858D898-39DE-4D4C-8722-EC05B223F61F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|c:\\users\\user\\desktop\\dev\\c##\\llm-advisor\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|c:\\users\\user\\desktop\\dev\\c##\\llm-advisor\\presentation\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|c:\\users\\user\\desktop\\c##\\llm-advisor\\presentation\\controllers\\authenticationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|c:\\users\\user\\desktop\\dev\\c##\\llm-advisor\\presentation\\controllers\\authenticationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\authenticationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|c:\\users\\user\\desktop\\c##\\llm-advisor\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|c:\\users\\user\\desktop\\dev\\c##\\llm-advisor\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75976D74-DC84-4D4D-88DA-A610145ED8CE}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D2F62F-22D8-41B2-B049-F51C10CFDE80}|Application\\Application.csproj|c:\\users\\user\\desktop\\c##\\llm-advisor\\application\\services\\geminiapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D2F62F-22D8-41B2-B049-F51C10CFDE80}|Application\\Application.csproj|c:\\users\\user\\desktop\\dev\\c##\\llm-advisor\\application\\services\\geminiapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D2F62F-22D8-41B2-B049-F51C10CFDE80}|Application\\Application.csproj|solutionrelative:application\\services\\geminiapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,41 +34,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Infrastructure\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Infrastructure\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Infrastructure\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAuwAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T13:25:20.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T13:24:29.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuthenticationControllers.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c##\\LLM-Advisor\\Presentation\\Controllers\\AuthenticationControllers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Presentation\\Controllers\\AuthenticationControllers.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthenticationControllers.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\c##\\LLM-Advisor\\Presentation\\Controllers\\AuthenticationControllers.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Presentation\\Controllers\\AuthenticationControllers.cs",
               "RelativeToolTip": "Presentation\\Controllers\\AuthenticationControllers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T09:29:45.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T09:29:45.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:29:36.499Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c##\\LLM-Advisor\\Presentation\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\c##\\LLM-Advisor\\Presentation\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwBEAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T09:29:36.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "DashBoardController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c##\\LLM-Advisor\\Presentation\\Controllers\\DashBoardController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Presentation\\Controllers\\DashBoardController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\DashBoardController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\c##\\LLM-Advisor\\Presentation\\Controllers\\DashBoardController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Presentation\\Controllers\\DashBoardController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\DashBoardController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwD0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -69,16 +101,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GeminiApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c##\\LLM-Advisor\\Application\\Services\\GeminiApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Application\\Services\\GeminiApiClient.cs",
               "RelativeDocumentMoniker": "Application\\Services\\GeminiApiClient.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\c##\\LLM-Advisor\\Application\\Services\\GeminiApiClient.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dev\\c##\\LLM-Advisor\\Application\\Services\\GeminiApiClient.cs",
               "RelativeToolTip": "Application\\Services\\GeminiApiClient.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:54:43.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:54:43.422Z"
             }
           ]
         }

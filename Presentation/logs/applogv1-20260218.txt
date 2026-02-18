@@ -1,0 +1,43 @@
+2026-02-18 13:18:47.419 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-18 13:18:50.771 +01:00 [INF] Now listening on: http://localhost:5043
+2026-02-18 13:18:50.774 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-18 13:18:50.774 +01:00 [INF] Hosting environment: Development
+2026-02-18 13:18:50.774 +01:00 [INF] Content root path: C:\Users\user\Desktop\dev\c##\LLM-Advisor\presentation
+2026-02-18 13:22:56.394 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/ - null null
+2026-02-18 13:22:58.993 +01:00 [WRN] Failed to determine the https port for redirect.
+2026-02-18 13:22:59.126 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/ - 404 0 null 2768.6805ms
+2026-02-18 13:22:59.185 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5043/, Response status code: 404
+2026-02-18 13:23:03.003 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - null null
+2026-02-18 13:23:03.611 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5043/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 608.452ms
+2026-02-18 13:23:57.922 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/Register - application/json 140
+2026-02-18 13:23:57.936 +01:00 [INF] CORS policy execution failed.
+2026-02-18 13:23:57.938 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-02-18 13:23:57.952 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2026-02-18 13:23:58.046 +01:00 [INF] Route matched with {action = "RegisterUser", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(Application.DTOs.UserForRegistrationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2026-02-18 13:23:59.830 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-02-18 13:23:59.916 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.RegisterUser (Presentation) in 1847.3464ms
+2026-02-18 13:23:59.916 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2026-02-18 13:23:59.922 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/Register - 400 null application/problem+json; charset=utf-8 1999.6921ms
+2026-02-18 13:24:09.950 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5043/api/authentication/Register - application/json 141
+2026-02-18 13:24:09.955 +01:00 [INF] CORS policy execution failed.
+2026-02-18 13:24:09.955 +01:00 [INF] Request origin http://localhost:5043 does not have permission to access the resource.
+2026-02-18 13:24:09.960 +01:00 [INF] Executing endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2026-02-18 13:24:09.977 +01:00 [INF] Route matched with {action = "RegisterUser", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterUser(Application.DTOs.UserForRegistrationDto) on controller Presentation.Controllers.AuthenticationController (Presentation).
+2026-02-18 13:24:18.018 +01:00 [INF] Executed DbCommand (505ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2026-02-18 13:24:18.579 +01:00 [INF] Executed DbCommand (435ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."CreatedAt", a."Email", a."EmailConfirmed", a."FirstName", a."LastName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenExpiryTime", a."Role", a."SecurityStamp", a."TwoFactorEnabled", a."UpdatedAt", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-02-18 13:24:19.690 +01:00 [INF] Executed DbCommand (655ms) [Parameters=[@p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?', @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?', @p16='?' (DbType = DateTime), @p17='?', @p18='?', @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "CreatedAt", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenExpiryTime", "Role", "SecurityStamp", "TwoFactorEnabled", "UpdatedAt", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2026-02-18 13:24:19.730 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2026-02-18 13:24:19.732 +01:00 [INF] Executed action Presentation.Controllers.AuthenticationController.RegisterUser (Presentation) in 9754.2316ms
+2026-02-18 13:24:19.733 +01:00 [INF] Executed endpoint 'Presentation.Controllers.AuthenticationController.RegisterUser (Presentation)'
+2026-02-18 13:24:19.754 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5043/api/authentication/Register - 201 0 null 9803.6572ms
+2026-02-18 13:25:14.251 +01:00 [INF] Application is shutting down...
